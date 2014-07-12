@@ -10,7 +10,7 @@ modified: 2014-07-14
 
 # Talks
 
-[__Simulating whole-genome DNA methylation data__ (pdf)](talks/ASC2014_Peter_Hickey.pdf): Presented at the [Australian Statistical Conference held in conjunction with the International Mathematical Statistics Annual Meeting](http://ims-asc2014.com/) in Sydney, Australia on July 10, 2014.
+[__Simulating whole-genome DNA methylation data__ (pdf)](/slides/ASC2014_Peter_Hickey.pdf): Presented at the [Australian Statistical Conference held in conjunction with the International Mathematical Statistics Annual Meeting](http://ims-asc2014.com/) in Sydney, Australia on July 10, 2014.
 
 # Posters
 
