@@ -1,33 +1,20 @@
 ---
 layout: page
 permalink: /about/
-title: About the Jekyll Theme
+title: About
 tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 modified: 2013-09-13
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+## Scientific interests
 
-## So Simple Theme is all about:
+For the past six years, I have applied my statistical skills in genomics research, but I am interested in all areas of statistics (fine, _Data Science_). I love working in collaboration with other people, be they biologists, medical doctors, fellow statisticians or anyone who simply has data and wants to understand what the hell is going on. A lot of my time is spent programming, mainly in R and Python.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
-* Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+In my PhD research, I am developing statistical methods and software for the analysis of DNA methylation from whole-genome bisulfite-sequencing datasets. I am particularly interested in understanding the spatial dependence structure of CpG methylation and how this dependence can be exploited in analyses of DNA methylation data. My PhD advisors are [Terry Speed](http://www.wehi.edu.au/faculty_members/professor_terry_speed) and [Peter Hall](http://www.ms.unimelb.edu.au/~halpstat/).
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+I also work as a research assistant at WEHI in the [statistical genetics group of Melanie Bahlo](http://bioinf.wehi.edu.au/genetics/). In this role I have performed linkage mapping and analysed genome-wide association studies to understand a variety of genetic diseases, from rare Mendelian diseases through to common complex traits. I have also analysed many whole-exome and whole-genome sequencing experiments of both humans and mice.
 
-[^1]: Example: *domain.com/category-name/post-title*
+## Procrastinations
+
+For kicks, I play guitar. There are a couple of videos you can check out on my [YouTube channel](https://www.youtube.com/user/MrPeteHaitch/videos).
