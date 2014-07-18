@@ -3,24 +3,24 @@ author: Peter Hickey
 comments: true
 date: 2011-11-15 09:38:00+00:00
 layout: post
-category : WEHI Bioinformatics Seminars
+category : blog
 title: "Understanding cancer neochromosome formation through integrated analysis of fusion and copy number data"
 presenter:
   name: "Dr Vincent Corbin"
   website: "http://scholar.google.com.au/citations?user=oIRyvswAAAAJ&hl=en"
-tags: [Bioinformatics, Presentation, Cancer, CNV, WEHI]
+tags: [WEHI Bioinformatics seminar, Cancer, CNV]
 
 ---
 
 # Neochromosomes
 
-Neochromosomes (NCs) are "extra" chromosomes that are found in around 3% of tumour genomes. They are a hallmark of liposarcoma, which is a cancer of the fat cells studied by the [Papenfuss lab](http://www.wehi.edu.au/faculty_members/dr_tony_papenfuss) at WEHI in conjunction with colleagues at the Peter MacCallum Cancer Centre. _Circular chromosomes_ and _giant rod chromosomes_ are both examples of NCs and are comprised of multiple donor segments from other regions of the region that are frequently highly amplified. 
+Neochromosomes (NCs) are "extra" chromosomes that are found in around 3% of tumour genomes. They are a hallmark of liposarcoma, which is a cancer of the fat cells studied by the [Papenfuss lab](http://www.wehi.edu.au/faculty_members/dr_tony_papenfuss) at WEHI in conjunction with colleagues at the Peter MacCallum Cancer Centre. _Circular chromosomes_ and _giant rod chromosomes_ are both examples of NCs and are comprised of multiple donor segments from other regions of the region that are frequently highly amplified.
 
 Until now, NCs have only been studied with low resolution technologies such as **F**luorescence **I**n **S**itu **H**ybridisation (__FISH__) and microarrays. The Papenfuss lab have been studying a cell-line derived from a patient with liposarcoma. The DNA was flow-sorted to enrich for the NCs (which is larger than the regular chromosomes) and then sequenced using the Illumina HiSeq and GAIIx.
 
 # Data
 
-They generated 300 million reads across multiple sequencing runs that were aligned against the human reference genome. Dr Arthur Hsu, a post-doc in the Papenfuss lab, has been studying the sequence to estimate breakpoints in the neochromosome (breakpoints occur where two derived contiguous sequences are joined in the neochromosome) and Vincent has been using the data to estimate copy number variation (CNV). 
+They generated 300 million reads across multiple sequencing runs that were aligned against the human reference genome. Dr Arthur Hsu, a post-doc in the Papenfuss lab, has been studying the sequence to estimate breakpoints in the neochromosome (breakpoints occur where two derived contiguous sequences are joined in the neochromosome) and Vincent has been using the data to estimate copy number variation (CNV).
 
 The data reveals that the amplified regions of the NC contain known drivers of liposarcoma tumours. Most chromosomes contribute material to the NC and most of these regions are highly amplified (16x-32x), with the exception of regions comprising the telomere and centromere of the NC. This appears as small, highly amplified _islands_ in plots of copy number for each contributing chromosome. There is strong evidence that chromosome 12 was the origin of the NC and that extra material was acquired later in development. 
 
@@ -32,10 +32,10 @@ Vincent is working on a mathematical model for the BFB model and simulating obse
 
 1. Uniform
 2. Small duplications/deletions
-3. Large duplications/deletions. 
+3. Large duplications/deletions.
 
 Vincent's simulation results from the small duplications/deletions model closely resembled the data. There were four main criteria he used to compare the models against the data.
-	
+
 1. This model generated small, highly amplified _islands_ as seen in the data.
 2. The density plot of CN distribution in the data reveals the distribution is multi-modal with the two strongest peaks at 16x and 32x. However, none of the density plots from any of the three breakpoint models resemble the data.
 3. The 1:1 CN ratio across edge-to-edge breakpoints is captured by all three models, but Vincent suggested this is an artefact of the simulation process rather than evidence of a good model.
@@ -57,4 +57,3 @@ The simulation model is ongoing work with current plans to extend it to include:
 * Simulate acquisition of new material by the NC
 * Exploring the linear BFB model
 * A population based model following multiple cells across time (the current simulation follows a single cell).
-

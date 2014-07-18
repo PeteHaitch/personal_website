@@ -7,8 +7,8 @@ title: "Variance models for RNA-seq"
 presenter:
   name: "Prof Gordon Smyth"
   website: "http://www.statsci.org/smyth/"
-category: WEHI Bioinformatics Seminars
-tags: [Bioinformatics, Presentation, RNA-seq, WEHI]
+category: blog
+tags: [WEHI Bioinformatics seminar, RNA-seq]
 
 ---
 
@@ -33,13 +33,13 @@ The overdispersion parameter for gene $$ g $$, $$ \varphi_g $$, must be estimate
 
 The `edgeR` work emphasised the development of _exact conditional tests_ based on the negative binomial distribution. Gordon noted that he now considers this less important than doing a good job of the mean-variance relationship. The `voom()` method is being developed to use this alternate angle to tackle differential gene expression analysis from RNA-seq data.
 
-The read counts of gene $$ g $$ in sample $$ i $$, $$ y_{gi} $$,  do not follow a Normal distribution, however ,the transformed response variable $$ log(y_{gi} + 0.5) $$ converges quickly to normality. `voom()` models the log counts per million and fits a loess trend line to the scatterplot of variance vs. mean to create weights that are then fed into a standard `limma` analysis. 
+The read counts of gene $$ g $$ in sample $$ i $$, $$ y_{gi} $$,  do not follow a Normal distribution, however ,the transformed response variable $$ log(y_{gi} + 0.5) $$ converges quickly to normality. `voom()` models the log counts per million and fits a loess trend line to the scatterplot of variance vs. mean to create weights that are then fed into a standard `limma` analysis.
 
 The variance model is at the observation level and the loess trend is robust against highly variable genes. Gordon presented the results of a simulation study where `voom()` bettered `edgeR`, `DESeq` and several other popular RNA-seq analysis methods. Of course, authors always display simulation results that favour their method, but it seemed like the simulation parameters were designed to favour the negative binomial-based models, such as `edgeR`, so I found the simulation results quite interesting.
 
 ## Gene-specific variation must be accounted for in the model
 
-The idea of gene-specific variances has long been accepted in the microarray world, but is still not widely accepted for the analysis of RNA-seq data. Gordon presented several plots showing that _tagwise_ estimates of dispersion had better goodness of fit statistics than either the common or trend estimates of dispersion. 
+The idea of gene-specific variances has long been accepted in the microarray world, but is still not widely accepted for the analysis of RNA-seq data. Gordon presented several plots showing that _tagwise_ estimates of dispersion had better goodness of fit statistics than either the common or trend estimates of dispersion.
 
 In short, __gene-specific variance exists and must be accounted for in the analysis__.
 
@@ -76,6 +76,3 @@ To conclude, Gordon summarised the pros and cons of `edgeR` and `voom()`.
 #### Cons
 
 * Still determining...
-
-
-

@@ -7,8 +7,8 @@ title: "Detection of rare variants in massively parallel sequencing data and bas
 presenter:
   name: "Mr Rick Tankard"
   website: "http://scholar.google.com.au/citations?user=AKoK1swAAAAJ&hl=en"
-category: WEHI Bioinformatics Seminars
-tags: [Bioinformatics, Presentation]
+category: blog
+tags: [WEHI Bioinformatics seminar, GATK, variant recalibration]
 
 ---
 
@@ -31,6 +31,3 @@ Rick studied a single sample to assess the effect of base-quality recalibration,
 * Don't yet know if performing `Novoalign` quality-score recalibration followed by `GATK` quality score recalibration is a good idea
 
 In the Bahlo lab we currently use `Novoalign`'s recalibration when aligning with `Novoalign` and `GATK`'s recalibration when aligning with `BWA`. Whilst the number of variants called by each of the "best" `Novoalign` and `BWA` analyses were similar in Rick's study, I'd like to know which variants are unique to each analysis and why. Rick is pursuing this question.
-
-
-

@@ -7,9 +7,8 @@ title: "Analysing Illumina Infinium 450k methylation arrays"
 presenter:
   name: "Dr Alicia Oshlack"
   website: "http://www.mcri.edu.au/research/core-facilities/bioinformatics/"
-category: WEHI Bioinformatics Seminars
-tags: [Bioinformatics, DNA methylation, Presentation, SWAN, WEHI]
-
+category: blog
+tags: [WEHI Bioinformatics seminar, DNA methylation, SWAN]
 ---
 
 [Dr Alicia Oshlack](http://www.mcri.edu.au/research/core-facilities/bioinformatics/), head of Bioinformatics at the Murdoch Children's Research Institute and formerly of WEHI Bioinformatics, gave today's Bioinformatics seminar at WEHI. Her topic was "Analysing Human Infinium 450k Methylation Arrays", in particular the normalisation and quality control issues associated with them. I've fleshed out the notes I made during the seminar, below.

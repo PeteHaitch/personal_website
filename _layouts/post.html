@@ -19,10 +19,10 @@
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
         {% if page.link %}
           <h1 class="entry-title"><a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
-          <h3 class="entry-presenter">{% if page.headline %}{{ page.headline }}{% else %} Presented by: <a href="{{ page.presenter.website }}">{{ page.presenter.name }}</a>{% endif %}</h3>
+          <h3 class="entry-presenter">{% if page.headline %}{{ page.headline }}{% else %} {% if page.presenter%}Presented by: <a href="{{ page.presenter.website }}">{{ page.presenter.name }}</a>{% endif %}{% endif %}</h3>
         {% else %}
           <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-          <h3 class="entry-presenter">{% if page.headline %}{{ page.headline }}{% else %} Presented by: <a href="{{ page.presenter.website }}">{{ page.presenter.name }}</a>{% endif %}</h3>
+          <h3 class="entry-presenter">{% if page.headline %}{{ page.headline }}{% else %} {% if page.presenter%}Presented by: <a href="{{ page.presenter.website }}">{{ page.presenter.name }}</a>{% endif %}{% endif %}</h3>
         {% endif %}
       </header>
       <footer class="entry-meta">
@@ -76,7 +76,7 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}	        
+{% include scripts.html %}
 
 </body>
 </html>
