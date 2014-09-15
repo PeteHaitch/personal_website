@@ -10,6 +10,8 @@ modified: 2014-07-14
 
 # Talks
 
+[__Making sense of DNA methylation data__ (SpeakerDeck)](https://speakerdeck.com/petehaitch/making-sense-of-dna-methylation-data): Presented for my PhD completion seminar at the Walter and Eliza Hall Institute of Medical Research in Melbourne, Australia on September 15, 2014.
+
 [__Simulating whole-genome DNA methylation data__ (pdf)](/slides/ASC2014_Peter_Hickey.pdf): Presented at the [Australian Statistical Conference held in conjunction with the International Mathematical Statistics Annual Meeting](http://ims-asc2014.com/) in Sydney, Australia on July 10, 2014.
 
 # Posters
