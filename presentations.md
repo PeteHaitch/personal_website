@@ -10,7 +10,7 @@ modified: 2014-07-14
 
 # Talks
 
-__`GenomicTuples` and DNA methylation patterns__ [[html](../GenomicTuples_BioC_2015.html) | [github](https://github.com/PeteHaitch/BiocEurope_2015_presentation)]: Presented at the European Bioconductor Developers' Meeting in Heidelberg, Germany on January 12, 2015.
+__`GenomicTuples` and DNA methylation patterns__ [[html](../GenomicTuples_BioC_2015.html) \| [github](https://github.com/PeteHaitch/BiocEurope_2015_presentation)]: Presented at the European Bioconductor Developers' Meeting in Heidelberg, Germany on January 12, 2015.
 
 [__Making sense of DNA methylation data__ (SpeakerDeck)](https://speakerdeck.com/petehaitch/making-sense-of-dna-methylation-data): Presented for my PhD completion seminar at the Walter and Eliza Hall Institute of Medical Research in Melbourne, Australia on September 15, 2014.
 
