@@ -1,6 +1,6 @@
 title:            Peter Hickey
 description:      Pragmatic Stats
-logo:             
+logo:
 disqus_shortname:
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -9,21 +9,18 @@ url:              //peterhickey.org
 
 # Owner/author information
 owner:
-  name:           Peter Hickey
-  avatar:         Peter_Hickey.jpeg
-  email:          peter.hickey@gmail.com
+  name:             Peter Hickey
+  avatar:           Peter_Hickey.jpeg
+  email:            peter.hickey@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: PeteHaitch
   github: PeteHaitch
-  flickr: PeteHaitch
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+  google:
+    plus: #username
+    analytics: # TODO
+    verify:
+    ad-client:
+    ad-slot:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -42,7 +39,7 @@ links:
     url: /software/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Australia/Melbourne
+timezone:    US/Eastern
 future:      true
 #pygments:    true
 highlighter: pygments
