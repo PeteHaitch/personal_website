@@ -3,9 +3,11 @@ layout: page
 permalink: /software/
 title: Software
 tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
-modified: 2014-07-14
+modified: 2016-04-26
 
 ---
+
+These are published software that I have developed. For a complete list, including work in progress, please see [https://github.com/PeteHaitch](https://github.com/PeteHaitch). I also contribute to the [bsseq Bioconductor package](https://bioconductor.org/packages/bsseq) and more broadly to the Bioconductor project.
 
 Python
 ----------------
