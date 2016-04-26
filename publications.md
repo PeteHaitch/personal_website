@@ -8,17 +8,16 @@ modified: 2016-04-26
 
 ---
 
-<div class="navbar">
-    <div class="navbar-inner">
-        <ul class="nav">
-            <li><a href="#articles">articles</a></li>
-            <li><a href="#meetingreports">meeting reports</a></li>
-            <li><a href="#thesis">dissertation</a></li>
-        </ul>
-    </div>
-</div>
+__Google Scholar__: [profile](http://scholar.google.com.au/citations?user=pQhJuagAAAAJ&hl=en)
 
-### <a name="articles"></a>journal articles
+__FigShare__: [profile](http://figshare.com/authors/Peter_Hickey/101422)
+
+__ORCID__: [profile](http://orcid.org/0000-0002-8153-6258)
+
+__ImpactStory__: [profile](https://impactstory.org/PeterHickey)
+
+
+## Journal Articles
 
 #### 2016
 
