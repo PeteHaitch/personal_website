@@ -8,6 +8,8 @@ modified: 2016-04-26
 
 ---
 
+## Links
+
 __Google Scholar__: [profile](http://scholar.google.com.au/citations?user=pQhJuagAAAAJ&hl=en)
 
 __FigShare__: [profile](http://figshare.com/authors/Peter_Hickey/101422)
@@ -50,7 +52,7 @@ Proceedings of the National Academy of Sciences U.S.A. 112:9698–9703.
 X chromosome association testing in genome wide association studies 
 Genetic Epidemiology 35:664–670
 [![PubMed](icons16/pubmed-icon.png)](https://www.ncbi.nlm.nih.gov/pubmed/21818774)
-[![XGWAS simulation code](icons16/R-icon.png)](https://github.com/PeteHaitch/XGWAS)
+[![XGWAS simulation code](icons16/github-icon.png)](https://github.com/PeteHaitch/XGWAS)
 <!-- http://doi.org/10.1002/gepi.20616 -->
 <!-- TODO: Can I host/post the pdf? -->
 
