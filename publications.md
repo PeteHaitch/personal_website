@@ -16,7 +16,7 @@ __ORCID__: [profile](http://orcid.org/0000-0002-8153-6258)
 
 __FigShare__: [profile](http://figshare.com/authors/Peter_Hickey/101422)
 
-__ImpactStory__: [profile](https://impactstory.org/PeterHickey)
+__ImpactStory__: [profile](https://impactstory.org/u/0000-0002-8153-6258)
 
 
 ## Journal Articles
