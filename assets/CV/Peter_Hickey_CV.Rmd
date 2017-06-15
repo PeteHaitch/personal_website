@@ -1,10 +1,10 @@
 ---
 title: "Curriculum Vitae"
 author: "Peter Hickey"
-date: '`r BiocStyle::doc_date()`'
+date: "`r BiocStyle::doc_date()`"
 output:
-  html_document: null
   pdf_document: default
+  html_document: null
 editor_options:
   chunk_output_type: console
 ---
@@ -250,7 +250,7 @@ Download statistics from [http://bioconductor.org/packages/stats/bioc](http://bi
 - *2013*: **Exploiting local dependencies in genome-wide studies of DNA methylation**. Contributed talk, Young Statisticians Conference, Melbourne, Australia (07/02)
 - *2012*: **Spatial dependence of CpG-methylation from whole genome bisulfite sequencing**. Contributed talk, Epigenomics of Common Diseases Meeting, Baltimore, USA (15/10)
 - *2012*: **Spatial dependence of DNA methylation**. Contributed talk, Australian Statistical Conference, Adelaide, Australia (15/07).
-- *2010*: **Bioinformatics - Applied statistics in modern molecular biology**. Contributed talk (with Davis McCarthy), 2010 Victorian Mathematics and Statistics Students’ Conference, Melbourne, Aus- tralia (02/07).
+- *2010*: **Bioinformatics - Applied statistics in modern molecular biology**. Contributed talk (with Davis McCarthy), 2010 Victorian Mathematics and Statistics Students’ Conference, Melbourne, Australia (02/07).
 
 ### Other
 
