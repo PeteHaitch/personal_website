@@ -1,10 +1,10 @@
 ---
 title: "Research Statement"
 author: "Peter Hickey"
-date: '`r BiocStyle::doc_date()`'
+date: "`r BiocStyle::doc_date()`"
 output:
-  html_document: null
   pdf_document: default
+  html_document: null
 editor_options:
   chunk_output_type: console
 ---
@@ -46,7 +46,7 @@ data from a broad range of genomic assays for measuring genetic variation,
 DNA methylation, chromatin accessibility, and gene expression. I have developed 
 pipelines used by colleagues in my lab to automate routine bioinformatics 
 analyses and data processing, such as performing data quality control, aligning 
-sequencing reads from DNA/RNA/ATAC/bisulfitesequencing, and counting reads 
+sequencing reads from DNA/RNA/ATAC/bisulfite-sequencing, and counting reads 
 mapped to features in preparation for downstream analysis.
 
 During this time I’ve analysed data from and helped design experiments across a 
