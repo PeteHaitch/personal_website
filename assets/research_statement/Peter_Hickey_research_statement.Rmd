@@ -1,0 +1,69 @@
+---
+title: "Research Statement"
+author: "Peter Hickey"
+date: '`r BiocStyle::doc_date()`'
+output:
+  html_document: null
+  pdf_document: default
+editor_options:
+  chunk_output_type: console
+---
+
+# Research interests
+
+<!---
+# TODO: See about.md. Crib from there and made consistent
+---->
+
+I am a statistician who enjoys analysing data and making it easier for others 
+to do the same. I am especially interested in analysing genomics data to better 
+understand basic molecular biology and to improve human health. This ranges 
+from understanding variation in chromatin accessibility between individual 
+cells to comparing DNA methylation levels in neurons from different brain 
+regions to identifying regions of the genome shared identical by descent in 
+families with rare Mendellian disease.
+
+Collaboration is essential to my research. Working with and learning from 
+experts in other fields is one of the most enjoyable parts of my job. I also 
+believe that this is one of the main ways in which my expertise in statistics 
+and data analysis can make a valuable contribution to scientific research. In 
+all my collaborations I have derived great pleasure from teaching and helping 
+colleagues to improve their computational and bioinformatics skills.
+
+I am also interested in developing new statistical methodology and adapting 
+existing methods to new applications, as the need arises. I firmly believe that 
+new statistical methodologies should be accompanied by a useful software 
+implementation. Developing open source software and contributing to the open 
+source software community is the other major way in which I can contribute my 
+skills and expertise to scientific research.
+
+# Expertise
+
+I have nine years’ experience collaborating with molecular biologists, 
+geneticists, and clinical researchers, as well as fellow statisticians and 
+bioinformaticians. During this time I have developed expertise in analysing 
+data from a broad range of genomic assays for measuring genetic variation, 
+DNA methylation, chromatin accessibility, and gene expression. I have developed 
+pipelines used by colleagues in my lab to automate routine bioinformatics 
+analyses and data processing, such as performing data quality control, aligning 
+sequencing reads from DNA/RNA/ATAC/bisulfitesequencing, and counting reads 
+mapped to features in preparation for downstream analysis.
+
+During this time I’ve analysed data from and helped design experiments across a 
+range of designs: from typical molecular biology experiments with small sample 
+sizes and multifactorial designs,to complex human pedigrees with consanguinity 
+from rare populations, to large genome-wide association studies with many 
+thousands of samples. I also have three years’ experience collaborating with 
+exercise and sports scientists, where I have helped design experiments, 
+provided general advice on data collection and management, performed 
+statistical analyses, and taught data analysis and visualisation using the R 
+programming language.
+
+I have more than a decade’s experience with the statistical programming 
+language, R, and several years’ experience with Python, C++, and shell 
+scripting. I not only use R for data analysis, but to create software packages 
+that are available through the Bioconductor project. Recently, I have been 
+helping in the design of core Bioconductor software for the analysis of 
+single-cell genomics data, for working with data that are stored on disk 
+because they are too large to store in RAM, and formaking it easier to do 
+integrative analyses on samples for which we have multiple types of assays.
