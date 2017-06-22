@@ -16,6 +16,7 @@ editor_options:
 - Web: [www.peterhickey.org](www.peterhickey.org)
 - Phone: +1-443-515-7937
 - Address: Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, 615 N. Wolfe St, E3527, Baltimore, MD 21202, USA
+- Australian Citizen
 
 # Education and research experience
 
@@ -138,21 +139,17 @@ myPrint(bib[bibtypes == "Misc"], no.print = "language")
 # TODO: Add examplar posts?
 -->
 
-# Computer skills
+# Computer skills and software development
 
-Very proficient with statistical computing, particularly R, and standard tools 
-for analysing genomics data such as Bioconductor, SAMtools, and BEDtools. 
-Familiar with C++, C, Python, Unix shell tools, Sun Grid Engine, Slurm. 
-Developed pipelines for analysing genomics data including whole-genome and 
-whole-exome sequencing, ATAC-seq, RNA-seq, and whole-genome 
-bisulfite-sequencing.
-
-# Software packages
+Very proficient with statistical computing, particularly R, and strategies for 
+managing and analysing large (multi-gigabyte to terabtye size) datasets, 
+especially genomics data. Familiar with C, C++, and various databases — both as 
+standalone tools and as integrations with and extensions of R — as well as 
+Python, Unix shell tools, and cluster job schedulers.
 
 Developer and contributor to several R packages through the Bioconductor 
-project. Also developed and published Python software. Please see 
-[https://github.com/PeteHaitch](https://github.com/PeteHaitch) for additional 
-projects.
+project. Also developed and published Python software. Additional projects are 
+available from [https://github.com/PeteHaitch](https://github.com/PeteHaitch).
 
 ```{r pkg_stats, echo = FALSE}
 years <- seq(2014, 2017)
@@ -179,13 +176,14 @@ rownames(n_distinct_ips) <- years
 
 ## R packages
 
-Download statistics from [http://bioconductor.org/packages/stats/bioc](http://bioconductor.org/packages/stats/bioc) for years since I have been a substantial author/contributor to the package.
+Download statistics are reported for years since I have been a substantial 
+author/contributor to the package (data from [http://bioconductor.org/packages/stats/](http://bioconductor.org/packages/stats/)).
 
 ### Author
 
 - [GenomicTuples](http://bioconductor.org/packages/GenomicTuples/): Representation and Manipulation of Genomic Tuples
     - Number of downloads (2014-2017): `r n_downloads[, "GenomicTuples"]`
-- [bsseq](http://bioconductor.org/packages/release/bioc/html/bsseq.html): Analyze, Manage and Store Bisulfite Sequencing Data
+- [bsseq](http://bioconductor.org/packages/release/bioc/html/bsseq.html): Analyse, Manage and Store Bisulfite Sequencing Data
     - Number of downloads (2014-2017): `r n_downloads[, "bsseq"]`
 
 ### Contributor
@@ -197,7 +195,7 @@ Download statistics from [http://bioconductor.org/packages/stats/bioc](http://bi
 
 ### Author
 
-- [methtuple](https://pypi.python.org/pypi/methtuple/): A caller for DNA methylation events that co-occur on the same DNA fragment from high-throughput bisulfite sequencing data, such as methylC-seq
+- [methtuple](https://pypi.python.org/pypi/methtuple/): A caller for DNA methylation events that co-occur on the same DNA fragment from high-throughput bisulfite sequencing data, such as whole-genome bisulfite-sequencing
 
 # Funding
 
@@ -215,19 +213,19 @@ Download statistics from [http://bioconductor.org/packages/stats/bioc](http://bi
 ## Scholarships
 
 - *2013*: Victorian Life Sciences Computation Initiative PhD Top-Up Scholarship.
-- *2012*: Statistical Society of Australia (Victoria Branch) scholarship to attend the Young Statisticians Conference (2013).
-- *2011-2015*: Australian Postgraduate Award.
+- *2012*: Statistical Society of Australia (Victoria Branch) scholarship to attend the Young Statisticians Conference (2013)
+- *2011-2015*: Australian Postgraduate Award
 - *2009*: Maurice Belz scholarship, The University of Melbourne
-    - A competitive scholarship awarded to complete Honours degree in statistics, stochastic processes or operations research.
+    - A competitive scholarship awarded to complete Honours degree in statistics, stochastic processes or operations research
 - *2009*: Alan W Harris Honours scholarship, The Walter and Eliza Hall Institute of Medical Research
 
 ## Awards
 
 - *2015*: Edith Moffat Travel Award
-  - To interview for international for postdoctoral positions and attend the European Bioconductor meeting
-- *2013*: Prize for best lightning talk, Australian Epigenetics Conference 2013.
-- *2013*: Prize for third best oral presentation, Young Statisticians Conference 2013.
-- *2010*: Best presentation (Statistics), 2010 Victorian Mathematics and Students’ Conference.
+    - To interview for international for postdoctoral positions and attend the European Bioconductor meeting
+- *2013*: Prize for best lightning talk, Australian Epigenetics Conference 2013
+- *2013*: Prize for third best oral presentation, Young Statisticians Conference 2013
+- *2010*: Best presentation (Statistics), 2010 Victorian Mathematics and Students’ Conference
 
 # Presentations
 
@@ -241,42 +239,43 @@ Download statistics from [http://bioconductor.org/packages/stats/bioc](http://bi
 
 ### Conferences
 
-- *2017*: **Developing statistical methods for large epigenomic studies in the human brain**. Contributed talk, ENAR 2017 Spring Meeting, Washington D.C., USA (03/13)
-- *2016*: **New features in `bsseq` for analysing large whole genome bisulfite-sequencing datasets**. Lightning talk, BioC 2016, San Franciso, USA (24/06)
-- *2016*: **`GenomicTuples`**. Lightning talk, BioC 2015 Developers’ Day, Seattle, USA (20/7)
-- *2015*: **Genomic tuples and DNA methylation patterns**. Contributed talk, European Bioconductor Developers’ Meeting, Heidelberg, Germany (12/01) [[slides](http://peterhickey.org/GenomicTuples_BioC_2015.html)]
-- *2014*: **Making sense of DNA methylation data**. PhD completion seminar, Melbourne, Australia (15/09) [[video](https://www.youtube.com/watch?v=WVC03AH2oqs) | [pdf](https://speakerdeck.com/petehaitch/making-sense-of-dna-methylation-data)]
-- *2014*: **Simulating whole-genome DNA methylation data**. Contributed talk, Australian Statistical Conference/International Mathematical Statistics Annual Meeting, Sydney, Australia (10/07) [[slides](http://peterhickey.org/slides/ASC2014_Peter_Hickey.pdf)]
+- *2017*: **Neuronal brain region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric disease heritability.**. Contributed talk, GTEx Project Community Meeting, Rockville, USA (28/06)
+- *2017*: **Developing statistical methods for large epigenomic studies in the human brain**. Contributed talk, ENAR 2017 Spring Meeting, Washington D.C., USA (13/03)
+- *2016*: **New features in `bsseq` for analysing large whole genome bisulfite-sequencing datasets**. Lightning talk, BioC 2016, San Francisco, USA (24/06)
+- *2016*: **The `GenomicTuples` package**. Lightning talk, BioC 2015 Developers’ Day, Seattle, USA (20/7)
+- *2015*: [**Genomic tuples and DNA methylation patterns**](http://peterhickey.org/GenomicTuples_BioC_2015.html). Contributed talk, European Bioconductor Developers’ Meeting, Heidelberg, Germany (12/01)
+- *2014*: [**Making sense of DNA methylation data**](https://www.youtube.com/watch?v=WVC03AH2oqs). PhD completion seminar, Melbourne, Australia (15/09)
+- *2014*: [**Simulating whole-genome DNA methylation data**](http://peterhickey.org/slides/ASC2014_Peter_Hickey.pdf)). Contributed talk, Australian Statistical Conference/International Mathematical Statistics Annual Meeting, Sydney, Australia (10/07)
 - *2013*: **Exploiting local dependencies in genome-wide studies of DNA methylation**. Contributed talk, Young Statisticians Conference, Melbourne, Australia (07/02)
 - *2012*: **Spatial dependence of CpG-methylation from whole genome bisulfite sequencing**. Contributed talk, Epigenomics of Common Diseases Meeting, Baltimore, USA (15/10)
-- *2012*: **Spatial dependence of DNA methylation**. Contributed talk, Australian Statistical Conference, Adelaide, Australia (15/07).
-- *2010*: **Bioinformatics - Applied statistics in modern molecular biology**. Contributed talk (with Davis McCarthy), 2010 Victorian Mathematics and Statistics Students’ Conference, Melbourne, Australia (02/07).
+- *2012*: **Spatial dependence of DNA methylation**. Contributed talk, Australian Statistical Conference, Adelaide, Australia (15/07)
+- *2010*: **Bioinformatics - Applied statistics in modern molecular biology**. Contributed talk (with Davis McCarthy), 2010 Victorian Mathematics and Statistics Students’ Conference, Melbourne, Australia (02/07)
 
 ### Other
 
 - *2013*: **Bioinformatics for bisulfite sequencing**. Invited talk, La Trobe University Sequencing Users Group, Melbourne, Australia (28/08)
-- *2010*: **X chromosome association testing in genome wide association studies**. Invited talk, Statistical Society of Australia - Victorian branch meeting, Melbourne, Australia (24/08).
+- *2010*: **X chromosome association testing in genome wide association studies**. Invited talk, Statistical Society of Australia - Victorian branch meeting, Melbourne, Australia (24/08)
 
 ## Posters 
 
-- *2014*: **Simulating whole-genome bisulfite-sequencing data**. Poster, Lorne Genome, Lorne, Australia (17/01) [[pdf](https://figshare.com/articles/Simulating_whole_genome_bisulfite_sequencing_data/834976)]
-- *2013*: **Simulating whole-genome bisulfite-sequencing data**. Poster, Epigenetics 2013, Shoal Bay, Australia (03/12) [[pdf](https://figshare.com/articles/Simulating_whole_genome_bisulfite_sequencing_data/834976)]
-- *2011*: **Analysis of mouse exome sequencing: filtering institute specific single nucleotide variants (SNVs)**. Poster, GeneMappers - 8th Australian Human Gene Mapping Conference, Hobart, Australia (04/04).
+- *2014*: [**Simulating whole-genome bisulfite-sequencing data**](https://figshare.com/articles/Simulating_whole_genome_bisulfite_sequencing_data/834976). Poster, Lorne Genome, Lorne, Australia (17/01)
+- *2013*: [**Simulating whole-genome bisulfite-sequencing data**](https://figshare.com/articles/Simulating_whole_genome_bisulfite_sequencing_data/834976). Poster, Epigenetics 2013, Shoal Bay, Australia (03/12)
+- *2011*: **Analysis of mouse exome sequencing: filtering institute specific single nucleotide variants (SNVs)**. Poster, GeneMappers - 8th Australian Human Gene Mapping Conference, Hobart, Australia (04/04)
 - *2010*: **X chromosome association testing in genome wide association studies**. Poster, The International Genetic Epidemiology Society Conference, Boston, USA (12/10)
-*2010*: **X chromosome association testing in genome wide association studies**. Poster, The Australasian Microarray and Associated Technologies Association Conference, Hobart, Australia (16/09)
-*2009*: **Homozygosity by state analysis in highly inbred pedigrees**. Poster, GeneMappers - 7th Australian Human Gene Mapping Conference, Sydney, Australia (15/06)
+- *2010*: **X chromosome association testing in genome wide association studies**. Poster, The Australasian Microarray and Associated Technologies Association Conference, Hobart, Australia (16/09)
+- *2009*: **Homozygosity by state analysis in highly inbred pedigrees**. Poster, GeneMappers - 7th Australian Human Gene Mapping Conference, Sydney, Australia (15/06)
 
 # Teaching experience
 
 ## Workshops
 
-- *2016*: **Analysing DNA methylation data with Bioconductor**. BioC 2016, Palo Alto, USA (26/06)
+- *2016*: [**Analysing DNA methylation data with Bioconductor**](https://htmlpreview.github.io/?https://github.com/hansenlab/tutorial.450k/blob/master/inst/doc/methylation450k.html). BioC 2016, Palo Alto, USA (26/06)
 
 ## Tutoring
 
 - *2006-2014*: Private tutoring 
     - One-on-one and small-group tutoring for students studying Masters-level biostatistics, third-year university level statistics and first-year university level engineering mathematics. Tutoring senior high school students in elementary, intermediate and advanced mathematics subjects and physics.
-- *2011*: Classroom assistant 
+- *2011*: Classroom teaching assistant 
     - Assisting in mathematics classes for final year high school students
 
 # Professional activities and service
