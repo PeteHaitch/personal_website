@@ -106,7 +106,7 @@ for (i in seq_along(bib)) {
 myPrint(bib[bibtypes == "Article"], no.print = "language")
 ```
 
-## Preprints
+## Preprints and under review
 
 ```{r preprints, results = "asis", echo = FALSE}
 myPrint(bib[bibtypes == "Unpublished"], no.print = "language")

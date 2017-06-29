@@ -9,11 +9,210 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Research interests
+## Research overview
 
-<!---
-# TODO: See about.md. Crib from there and made consistent
----->
+My aims as an applied statistician are to provide simple, robust solutions to 
+important problems and to use my creativity as a data analyst to identify 
+unusual features of the data to suggest new hypotheses. I have a strong 
+interest in developing statistical software and bringing data science skills 
+and ways of thinking to researchers in underserved fields. 
+
+Most of my research is in the interdisciplinary fields of genomics and 
+bioinformatics. There, I collaborate closely with biologists and clinicians to 
+understand the genetic basis of conditions such as autism spectrum disorder (**CITE**) and to dissect the molecular mechanisms that influence these traits, 
+such as identifying differences in gene expression and chromatin state between 
+neurons in different regions of the human brain (**CITE**).
+
+I see my applied research as having two main components. Firstly, the concrete 
+work to assist researchers in answering their specific questions. This includes 
+helping design experiments (**CITE**), establishing plans for recording and 
+managing the data (**CITE**), and using appropriate statistical methods to 
+address their questions (**CITE**). The second component is more creative, 
+using exploratory data analysis to identify unusual features in the data and, 
+from this, to suggest hypotheses for further study (**CITE**). These two 
+components often intersect, particularly when analysing data from the latest 
+technologies for which careful and detailed exploratory work is required in 
+order understand how to distinguish technical and biological variation.
+
+My methodological research arises from this collaborative research, motivated 
+by the pressing biological and medical questions but also by the rapid advances 
+in technology that are driving the field of genomics. These new technologies 
+generate vast amounts of high-dimensional data from thousands to millions of 
+individual cells. I am interested in finding simple, robust methods to identify 
+the signal in these large, noisy datasets. In my experience, this often 
+involves creative extensions or repurposing of existing methodology or the 
+recognition of a domain-specific problem as a special case or related case of a 
+more general statistical problem. My strong statistical training and 
+computational expertise makes me ideally suited to address the challenges these 
+experiments provide.
+
+I firmly believe that methodological developments can only reach their full 
+potential when implemented in well-documented software that integrates with 
+other relevant tools. This belief is behind my development of open source 
+software and my involvement in the broader open source software community, most 
+notably as a contributor to the R/Bioconductor project (**CITE**). My 
+methodological research often requires the development of algorithms and data 
+structures that scale to the analysis of gigabyte-to-terabyte sized data. I am 
+contributing to core Bioconductor infrastructure to make the analysis of such 
+large data routinely feasible by developing general, extensible classes for 
+disk-backed data and implementing efficient methods for common operations.
+
+The development of strong working relationships is critical to the success of 
+my interdisciplinary research. I have found it vitally important to be able 
+to translate concepts between statistical terminology and that used in the 
+research field. My strong communication skills and interest in the broader 
+scientific context of the statistical problems are appreciated by my 
+collaborators. I take pride in my efforts to understand and follow the latest 
+research in my collaborators' fields, which allows me to take leadership roles 
+in our research. By doing so, I can move from being a statistical collaborator 
+who leads the quantitative analysis of experiments, to a scientific 
+collaborator who substantially contributes to the ideas and scientific 
+conclusions of the research. This is exemplified by my current neuroscience 
+research for which I am co-first author on a recent paper (**CITE**).
+
+**Read Kasper's again to see what I've missed**
+
+## Graduate work
+
+My graduate work focused on the statistical analysis of high-throughput 
+assays for studying DNA methylation (**CITE**). DNA methylation is involved in 
+the regulation of gene expression, embryonic development, and is dysregulated 
+in many types of cancers. My PhD research involved extensive exploratory data 
+analysis of data from cutting-edge technology. In doing this exploratory data 
+analysis, I identified a strong spatial dependence of DNA methylation along 
+individual DNA molecules, termed co-methylation, which I found is strongly 
+influenced by the spacing of nucleosomes, which the DNA wraps around. In order 
+to study co-methylation, I developed the **methtuple** software (**CITE**) as 
+no existing software could extract the relevant measurements from these large 
+datasets. I also made contributions to the widely used **bsseq** R/Bioconductor 
+package (**CITE DOWNLOADS**). Using my expertise in analysing data from these 
+high-throughput assays, I was also involved in studies of the role of DNA 
+methylation and other epigenetic marks in silencing genes on the X chromosome 
+(**CITE**) and investigating how DNA methylation varies between littermates of 
+genetically identical mice (**CITE**).
+
+While a PhD student, I worked part-time as a research assistant, continuing my previously full-time position. In that role I collaborated with biologists and 
+clinicians to map disease-causing mutations using methods from statistical 
+genetics (**CITE**). I developed software pipelines to process data from 
+high-throughput assays, managed databases of complex family medical history, 
+and wrote reports to explain the statistical analyses to clinicians. I also 
+wrote a research paper comparing methods for analysing data from the X 
+chromosome in large, genome-wide association studies of complex disease 
+(**CITE**).
+
+## Postdoctoral work
+
+In my postdoctoral work, I continue to have an interest in analysing data on 
+DNA methylation to better understand its role in different biological systems. 
+With colleagues at Johns Hopkins, I have led a project in which we performed 
+the most comprehensive study to date of differences in DNA methylation between 
+different regions in the human brain. We have found that almost all of these 
+differences occur in neuronal cells and that these 
+_differentially methylated regions_ are likely important in contributing to the 
+heritability of neuropsychiatric diseases such as schizophrenia and neuroticism.
+
+During this research, I extended the method we use for identifying these 
+differentially methylated regions from pairwise comparisons to handle general 
+design matrices. These improvements and others were added to the **bsseq** 
+R/Bioconductor package.
+
+As the cost of these high-throughout assays continues to fall, experiments 
+generating data on hundreds, and soon to be thousands, of samples are now 
+feasible. I am a part of a large consortium, the eGTEx project, where we are 
+profiling DNA methylation, in conjunction with multiple other genomic 
+and molecular measurements, on a wide variety of tissues from a common set of 
+human donors (**CITE**). These new datasets are many hundreds of gigabytes in 
+size, too large for current approaches that typically require the data to be 
+in-memory to perform an analysis. Recognising this, I am working with members 
+of the Bioconductor project (**CITE**) to develop a core set of classes, 
+methods, and other infrastructure to support the analysis of disk-backed data, 
+such as by storing the data on disk in the hierarchical data format (HDF5). 
+Importantly, in keeping with the spirit of the Bioconductor project, the aim is 
+to develop this as core infrastructure that other developers can use or extend 
+and also to ensure that using these advanced methods and techniques do not 
+place a cognitive burden on the user (**CITE**). The development of these novel 
+data structures and algorithms is also important in my other main research 
+topic: _single-cell genomics_.
+
+Most genomics data are currently generated using _bulk_ assays that report a 
+signal aggregated over many tens of thousands of cells. In contrast, 
+single-cell assays measure and report these signals at the level of individual 
+cells. These single-cell assays provide unprecedented opportunities to examine 
+rare sub-populations of cells, such as identifying treatment-resistant 
+subclones within a tumour or to identify novel cell types, as well as to 
+quantify the cell-to-cell variability of molecular marks in otherwise 
+apparently homogeneous populations. However, compared to data from bulk assays, 
+single-cell data are notably sparser, more heterogeneous, and potentially more 
+liable to technical artifacts. I am working to develop statistical models for 
+single-cell data that is being generated by biologists at Johns Hopkins to 
+study pancreatic cancer metastasis.
+
+Finally, in the last 2-3 years I have also established an independent 
+collaboration with sports scientists and exercise physiologists at the 
+Australian Catholic University (**CITE**). This team researches the prevalence, 
+diagnosis, and treatment of sports injuries, particularly of hamstring injuries 
+in elite athletes. This work combines routine statistical consultancy tasks — 
+such as designing eexperiments and providing guidance on choice of statistical 
+methods — with teaching practical data science skills (discussed further in my 
+Teaching Statement).
+
+## Future research
+
+I continue to by fascinated by the scientific power of molecular biology, to 
+enjoy the statistical and computational challenges raised by new technologies, 
+and to be motivated by the potential of discoveries in this field to improve 
+human health. For these reasons, I plan to continue doing statistical research 
+in genomics and to collaborate with biologists and clinicans tackling important 
+scientific questions. But I also want to broaden my research: I am very 
+interested in using my data science knowledge and skills to make it easier and 
+more enjoyable for others to analyse data and to contribute to research and 
+projects that serve a social good.
+
+In genomics, I would like to develop statistical methods that better integrate 
+data from multiple sources. Currently, data from multiple assays 
+are typically analysed independently of one another and the results then 
+combined post-hoc. There is plenty of evidence, including in our 
+recent neuroscience work (**CITE**), that this approach will miss regions that 
+might be discovered if there was a way to perform a joint analysis. However, 
+the joint analysis is complicated by the different measurement scales, 
+resolutions, and precisions of these platforms, not to mention the intrinsic 
+differences in variability of different molecular marks. Importantly, the 
+successful development of such methods will immediately pay dividends as they 
+can be used to re-analyse existing large public datasets with multiple data 
+types.
+
+My other current, ongoing research projects in genomics include: 
+
+- Improving variance estimation for the analysis of DNA methylation data. I am developing empirical Bayes methodology to share information across loci to better estimate the mean-variance relationship and can be used to shrink variance estimates
+- Identifying and removing systematic biases from high-throughput biological data. Technical biases mean that certain DNA fragments are preferentially sampled in many types of high-throughput experiments. This needs to be adjusted for to avoid these driving the results of the analysis
+- Using nanopore sequencing 
+- Scaling computing to big data
+
+
+In planning my future research, I find myself increasingly motivated by a 
+desire to make it easier for others to analyse data.  
+
+### Social good
+
+- Vision impaired users
+
+
+
+
+
+
+**Aims (write a section on each of these with a past, present, future sentence/paragraph)**
+
+
+1. Finding simple solutions to concrete questions
+2. Using exploratory data analysis to look for unusual aspects of the data that may suggest new hypotheses
+3. Methodology motivated by need (scientific questions)
+4. Developing and supporting open source software
+5. I am a statistician who enjoys analysing data and making it easier for others 
+to do the same.
+
+I am especially interested in analysing genomics data to better 
+understand basic molecular biology and to improve human health.
 
 I am a statistician who enjoys analysing data and making it easier for others 
 to do the same. I am especially interested in analysing genomics data to better 
@@ -21,49 +220,105 @@ understand basic molecular biology and to improve human health. This ranges
 from understanding variation in chromatin accessibility between individual 
 cells to comparing DNA methylation levels in neurons from different brain 
 regions to identifying regions of the genome shared identical by descent in 
-families with rare Mendellian disease.
+families with rare Mendelian disease.
+
+## Statistical bioinformatics
+
+**I am interested in finding simple and robust solutions to problems in 
+high-throughput biology**
+
+. This ranges 
+from understanding variation in chromatin accessibility between individual 
+cells to comparing DNA methylation levels in neurons from different brain 
+regions to identifying regions of the genome shared identical by descent in 
+families with rare Mendelian disease.
+
+
+and adapting 
+existing methods to new applications, as the need arises. 
+
+
+## Collaboration
+
+Most of my research is 
+in the interdisciplinary field of genomics and bioinformatics, which requires 
+strong collaborations between biologists, clinicians, statisticians, and 
+computer scientists. I take pride in the 
+strong collaborations I have been part of between biologists, clinicians, and 
+other researchers. 
+
+
+and learning about their domain in order 
+to provide relevant 
+
+
+Through these collaborations I have developed strong 
+communication skills
+
+**Point to specific examples**
 
 Collaboration is essential to my research. Working with and learning from 
 experts in other fields is one of the most enjoyable parts of my job. I also 
 believe that this is one of the main ways in which my expertise in statistics 
 and data analysis can make a valuable contribution to scientific research. In 
 all my collaborations I have derived great pleasure from teaching and helping 
-colleagues to improve their computational and bioinformatics skills.
-
-I am also interested in developing new statistical methodology and adapting 
-existing methods to new applications, as the need arises. I firmly believe that 
-new statistical methodologies should be accompanied by a useful software 
-implementation. Developing open source software and contributing to the open 
-source software community is the other major way in which I can contribute my 
-skills and expertise to scientific research.
-
-# Expertise
+colleagues to improve their computational and data analysis skills.
 
 I have nine years’ experience collaborating with molecular biologists, 
 geneticists, and clinical researchers, as well as fellow statisticians and 
 bioinformaticians. During this time I have developed expertise in analysing 
 data from a broad range of genomic assays for measuring genetic variation, 
-DNA methylation, chromatin accessibility, and gene expression. I have developed 
-pipelines used by colleagues in my lab to automate routine bioinformatics 
-analyses and data processing, such as performing data quality control, aligning 
-sequencing reads from DNA/RNA/ATAC/bisulfite-sequencing, and counting reads 
-mapped to features in preparation for downstream analysis.
+DNA methylation, chromatin accessibility, and gene expression. 
 
-During this time I’ve analysed data from and helped design experiments across a 
-range of designs: from typical molecular biology experiments with small sample 
-sizes and multifactorial designs,to complex human pedigrees with consanguinity 
-from rare populations, to large genome-wide association studies with many 
-thousands of samples. I also have three years’ experience collaborating with 
-exercise and sports scientists, where I have helped design experiments, 
-provided general advice on data collection and management, performed 
-statistical analyses, and taught data analysis and visualisation using the R 
-programming language.
+During this time I have analysed data from and helped design a range of 
+experiments: from typical molecular biology experiments with small 
+sample sizes and multifactorial designs, to complex human pedigrees with 
+consanguinity from rare populations, to large genome-wide association studies 
+with many thousands of samples. 
+
+More recently, I have begun collaborating with exercise and sports scientists, 
+where I have helped design experiments, provided general advice on data 
+collection and management, performed statistical analyses, and taught data 
+analysis and visualisation using the R programming language.
+
+- Communication
+
+## Software development
 
 I have more than a decade’s experience with the statistical programming 
 language, R, and several years’ experience with Python, C++, and shell 
 scripting. I not only use R for data analysis, but to create software packages 
-that are available through the Bioconductor project. Recently, I have been 
+that are available through the Bioconductor project. 
+
+I firmly believe that 
+new statistical methodology should be accompanied by a useful software 
+implementation. Developing open source software and contributing to the open 
+source software community is the other major way in which I can contribute my 
+skills and expertise to scientific research.
+
+
+**Pad this out**
+Recently, I have been 
 helping in the design of core Bioconductor software for the analysis of 
 single-cell genomics data, for working with data that are stored on disk 
-because they are too large to store in RAM, and formaking it easier to do 
-integrative analyses on samples for which we have multiple types of assays.
+because they are too large to store in RAM, and for making it easier to do 
+integrative analyses on samples for which we have multiple types of data from 
+different assays.
+
+**Pad this out**
+I have also developed pipelines used by colleagues in my lab to automate 
+routine bioinformatics analyses and data processing, such as performing data 
+quality control, aligning sequencing reads from 
+DNA/RNA/ATAC/bisulfite-sequencing, and summarising reads mapped to features in 
+preparation for downstream analysis.
+
+
+
+<!---
+# TODO: See about.md; Crib from there and made consistent
+---->
+
+
+
+
+
