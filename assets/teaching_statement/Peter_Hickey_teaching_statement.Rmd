@@ -1,0 +1,89 @@
+---
+title: "Teaching Statement"
+author: "Peter Hickey"
+date: "`r BiocStyle::doc_date()`"
+output:
+  pdf_document: default
+  html_document: null
+editor_options:
+  chunk_output_type: console
+---
+
+## Experience
+
+I have enjoyed tutoring mathematics and statistics since I was a high school 
+student, with private tutoring supporting me financially during my final years 
+of high school and through my undergraduate studies. I was fortunate enough to 
+obtain a research assistant position to support me during my PhD studies, but 
+this meant I did not have time to teach university tutorials.
+
+I have experience planning and teaching workshops on R and Bioconductor, such 
+as a 3-hour workshop on analysing DNA methylation microarrays held as part of 
+the annual Bioconductor meeting in 2016. These workshops typically have 
+participants from a range of backgrounds, from statisticians to wet-lab 
+biologists. 
+
+With the collaborative nature of my research, I have taken the opportunity to 
+introduce data science skills to my colleagues. This typically starts with the 
+basics of installing R and teaching how to import data and perform basic 
+statistical and graphical summaries. Many people immediately see benefits to 
+this over their current approaches as well as the potential that furthering 
+these skills offers to them in simplifying and accelerating their research. 
+Some colleagues have progressed to the point where they can use various 
+packages to run their own analyses, generate publication-quality graphics, and 
+write reproducible reports. I have also enjoyed informally introducing 
+statistical colleagues to software development and helping them with techniques 
+such as version control and in creating their first R package. 
+
+## Teaching philosophy
+
+I am interested in finding ways to develop statistical and data science skills 
+for people in fields not typically exposed to these or not well-served by 
+current training. Apart from the obvious general benefits of being able to 
+reason with data, the ability to analyse data and clearly communicate summaries 
+and results are highly valued in modern workplaces and businesses which are generating and collecting data like never before. As such, I believe that 
+students would benefit from data science skills being taught more widely. Part 
+of this effort is in recognising that data science has an overlapping 
+yet distinct identity to statistics, which involves skills not typically taught 
+in an introductory statistics class.
+
+With my undergraduate and postgraduate degrees in mathematics and statistics, I 
+am capable of teaching a variety of statistics classes. I also have 
+experience in teaching people with a less mathematical or computational 
+background, particularly in introducing statistical computing. At a more 
+advanced or specialised level, my experience makes me well-suited to teaching 
+statistical computing, advanced data science, data visualisation, and 
+statistical genomics.
+
+I take inspiration from teachers such as Jenny Bryan (University of British 
+Columbia), Amelia McNamara (Smith College), Jeff Leek (Johns Hopkins 
+University), and Mine Çetinkaya-Rundel (Duke University) in their efforts to 
+modernise statistics education and to develop data science curricula at the 
+undergraduate and graduate levels. 
+
+I have found that the 'tidyverse' of R packages, developed and popularised by 
+Hadley Wickham and colleagues, are well-received by new users to R due to their 
+relatively consistent design. This consistency provides faster rewards to the 
+user, giving them confidence to try new things and extend their abilities. 
+Although more complicated due to its vast scope and number of packages, 
+Bioconductor provides an excellent teaching model with its extensive use of 
+package vignettes and workflows. These are wonderful resources when developing 
+teaching material for classes and workshops.
+
+I like to use real datasets when teaching, ideally tailored to the students 
+interests or that are otherwise of general interest. Although it requires extra 
+effort to identify these datasets, I believe it is worth it to help capture and 
+retain students' interest in understanding and solving the problem. I also like 
+to teach data analysis in all its dirty glory, although I appreciate that care 
+needs to be taken to balance the use of 'messy' data, to teach the essential 
+skills of data wrangling and tidying, with the use of 'clean' or tidy data to 
+focus on illustrating key statistical concepts. 
+
+Apart from teaching the technical and analytical skills needed to analyse data, 
+I would like also to emphasise the communication skills needed to share the 
+results of an analysis. One key skill for communicating your results is the 
+ability to make clear and informative data visualisations and statistical 
+graphics. Strong communication skills are critical to making your work count, 
+especially in the workforce where you may be working in a multidisciplinary 
+team or required to explain your results to management who are not necessarily 
+well-trained in statistics or analytics.

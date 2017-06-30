@@ -1,6 +1,6 @@
 ---
-title: "Curriculum Vitae"
-author: "Peter Hickey"
+title: "Peter Francis Hickey"
+author: "Curriculum Vitae"
 date: "`r BiocStyle::doc_date()`"
 output:
   pdf_document: default
