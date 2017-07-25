@@ -11,7 +11,7 @@ modified: 2014-07-14
 
 ## 2017
 
-**DelayedMatrixStats** [[html](../DelayedMatrixStats_BioC_2017.html) \| [github](https://github.com/PeteHaitch/BioC_2017_presentation)]: Presented at the [Bioconductor Developers' Meeting](https://www.bioconductor.org/help/course-materials/2017/BioC2017/) in Boston, USA on July 25, 2017.
+**DelayedMatrixStats** [[html](../DelayedMatrixStats_BioC_2017.html) \| [pdf](../DelayedMatrixStats_BioC_2017.pdf) \| [github](https://github.com/PeteHaitch/BioC_2017_presentation)]: Presented at the [Bioconductor Developers' Meeting](https://www.bioconductor.org/help/course-materials/2017/BioC2017/) in Boston, USA on July 25, 2017.
 
 ## 2015
 
