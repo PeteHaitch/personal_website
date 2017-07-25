@@ -9,6 +9,10 @@ modified: 2014-07-14
 
 # Talks
 
+## 2017
+
+**DelayedMatrixStats** [[html](../DelayedMatrixStats_BioC_2017.html) \| [github](https://github.com/PeteHaitch/BioC_2017_presentation)]: Presented at the [Bioconductor Developers' Meeting](https://www.bioconductor.org/help/course-materials/2017/BioC2017/) in Boston, USA on July 25, 2017.
+
 ## 2015
 
 __GenomicTuples and DNA methylation patterns__ [[html](../GenomicTuples_BioC_2015.html) \|   [github](https://github.com/PeteHaitch/BiocEurope_2015_presentation)]: Presented at the [European Bioconductor Developers' Meeting](http://www-huber.embl.de/BiocEurope/) in Heidelberg, Germany on January 12, 2015.
