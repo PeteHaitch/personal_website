@@ -11,7 +11,7 @@ modified: 2014-07-14
 
 ## 2017
 
-**Scaling R and Bioconductor to support methods for single-cell genomic analysis** [ [pdf](../2017-08-01_Peter_Hickey_JSM.pdf)]: Presented at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/index.cfm) in Baltimore, USA on August 1, 2017.
+**Scaling R and Bioconductor to support methods for single-cell genomic analysis** [[pdf](../2017-08-01_Peter_Hickey_JSM.pdf)]: Presented at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/index.cfm) in Baltimore, USA on August 1, 2017.
 
 **DelayedMatrixStats** [[html](https://bioc2017.updog.co/DelayedMatrixStats_BioC_2017.html) \| [pdf](../DelayedMatrixStats_BioC_2017.pdf) \| [github](https://github.com/PeteHaitch/BioC_2017_presentation)]: Presented at the [Bioconductor Developers' Meeting](https://www.bioconductor.org/help/course-materials/2017/BioC2017/) in Boston, USA on July 25, 2017.
 
