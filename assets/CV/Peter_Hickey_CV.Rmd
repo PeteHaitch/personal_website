@@ -239,6 +239,7 @@ author/contributor to the package (data from [http://bioconductor.org/packages/s
 
 ### Conferences
 
+- *2017*: **Mapping the human brain epigenome and its links to disease.** Contributed talk, Epigenetics 2017, Brisbane, Australia (31/10)
 - *2017*: **Neuronal brain region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric disease heritability.**. Contributed talk, GTEx Project Community Meeting, Rockville, USA (28/06)
 - *2017*: **Developing statistical methods for large epigenomic studies in the human brain**. Contributed talk, ENAR 2017 Spring Meeting, Washington D.C., USA (13/03)
 - *2016*: **New features in `bsseq` for analysing large whole genome bisulfite-sequencing datasets**. Lightning talk, BioC 2016, San Francisco, USA (24/06)
