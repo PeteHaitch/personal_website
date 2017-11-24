@@ -151,16 +151,23 @@ Developer and contributor to several R packages through the Bioconductor
 project. Also developed and published Python software. Additional projects are 
 available from [https://github.com/PeteHaitch](https://github.com/PeteHaitch).
 
-```{r pkg_stats, echo = FALSE}
+```{r pkg_stats, echo = FALSE, warning = FALSE}
 years <- seq(2014, 2017)
 names(years) <- years
-pkgs <- c("GenomicTuples", "bsseq", "minfi")
+pkgs <- c("GenomicTuples", "bsseq", "minfi", "DelayedMatrixStats")
 names(pkgs) <- pkgs
 n_downloads <- sapply(pkgs, function(pkg) {
   sapply(years, function(year) {
     url <- paste0("http://bioconductor.org/packages/stats/bioc/", pkg, "/", 
                   pkg, "_", year, "_stats.tab")
-    read.table(url, header = TRUE)[13, "Nb_of_downloads"]
+    # NOTE: Not all packages have data for all years; return NA when this occurs
+    n <- try(suppressWarnings(
+      read.table(url, header = TRUE)[13, "Nb_of_downloads"]),
+      silent = TRUE)
+    if (is(n, "try-error")) {
+      n <- NA
+    }
+    n
   })
 })
 rownames(n_downloads) <- years
@@ -168,7 +175,12 @@ n_distinct_ips <- sapply(pkgs, function(pkg) {
   sapply(years, function(year) {
     url <- paste0("http://bioconductor.org/packages/stats/bioc/", pkg, "/", 
                   pkg, "_", year, "_stats.tab")
-    read.table(url, header = TRUE)[13, "Nb_of_distinct_IPs"]
+    n <- try(read.table(url, header = TRUE)[13, "Nb_of_distinct_IPs"],
+             silent = TRUE)
+    if (is(n, "try-error")) {
+      n <- NA
+    }
+    n
   })
 })
 rownames(n_distinct_ips) <- years
@@ -183,8 +195,10 @@ author/contributor to the package (data from [http://bioconductor.org/packages/s
 
 - [GenomicTuples](http://bioconductor.org/packages/GenomicTuples/): Representation and Manipulation of Genomic Tuples
     - Number of downloads (2014-2017): `r n_downloads[, "GenomicTuples"]`
-- [bsseq](http://bioconductor.org/packages/release/bioc/html/bsseq.html): Analyse, Manage and Store Bisulfite Sequencing Data
+- [bsseq](http://bioconductor.org/packages/bsseq/): Analyse, Manage and Store Bisulfite Sequencing Data
     - Number of downloads (2014-2017): `r n_downloads[, "bsseq"]`
+- [DelayedMatrixStats](http://bioconductor.org/packages/DelayedMatrixStats/): Functions that Apply to Rows and Columns of 'DelayedMatrix' Objects
+    - Number of downloads (2017): `r n_downloads["2017", "DelayedMatrixStats"]`
 
 ### Contributor
 
