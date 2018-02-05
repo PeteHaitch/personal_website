@@ -4,7 +4,6 @@ author: Peter Hickey
 date: '2018-02-05'
 categories:
   - R
-  - blog
 tags:
   - aRt
 slug: wedding-artwork
@@ -29,8 +28,6 @@ day, as shown below in some gratuitous photos and recorded in several media
 articles, including [The Advocate](http://www.theadvocate.com.au/story/5153850/the-historic-wedding-of-kelly-and-kirsty/), [PEDESTRIAN.TV](https://www.pedestrian.tv/dating/kirsty-and-kelly-albion/), and [The Mercury (paywalled)](http://www.themercury.com.au/lifestyle/kelly-mackenzie-and-kirsty-albion-say-wedding-in-tasmania-best-day-of-our-lives/news-story/baea7c3453679d478034bb151aaed78f).
 
 ![[Fern and Stone Photography](https://fernandstonephotography.pixieset.com/kirstyandkelly-1/)](https://images.pixieset.com/05992701/bfe33d946d5eb9657bbe2e8885252a61-xlarge.jpg)
-![[Fern and Stone Photography](https://fernandstonephotography.pixieset.com/kirstyandkelly-1/)](https://images.pixieset.com/05992701/fa50381064e80c8279d90944c3d8b659-xlarge.jpg)
-![[Fern and Stone Photography](https://fernandstonephotography.pixieset.com/kirstyandkelly-1/)](https://images.pixieset.com/05992701/5b7a2172d9a701a784cb97385c300002-xlarge.jpg)
 
 But what gift do you get a couple to celebrate such a beautiful and historic 
 occasion? I wanted to give them something personal and decided to create an 
@@ -46,8 +43,9 @@ line segment is a sentence, with length given by the number of words and the
 coloured by its sentiment. All that changes between the 9 panels is the angle 
 between adjacent lines.
 
-![](/figures/ceremony_sentence_plot.png)
+![Wedding aRtwoRk](/img/ceremony_sentence_plot.png)
 
 I'm really happy with how it turned out. More importantly, so were Kirsty and 
 Kelly!
 
+![[Fern and Stone Photography](https://fernandstonephotography.pixieset.com/kirstyandkelly-1/)](https://images.pixieset.com/05992701/fa50381064e80c8279d90944c3d8b659-xlarge.jpg)
