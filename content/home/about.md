@@ -36,4 +36,4 @@ Biostatistics at Johns Hopkins University working in the research group of
 software to summarise and understand genomics data.
 
 This site include my (very) occasional [blog on statistics and genomics](/post), along 
-with the usual academic fare of my papers, presentations, CV, software and data.
+with the usual academic fare of my papers, [presentations](/talk), {{% staticref "cv/Peter_Hickey_CV.pdf" %}}CV (pdf){{% /staticref %}}, software and data.

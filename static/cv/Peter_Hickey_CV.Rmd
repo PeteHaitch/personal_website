@@ -175,8 +175,9 @@ n_distinct_ips <- sapply(pkgs, function(pkg) {
   sapply(years, function(year) {
     url <- paste0("http://bioconductor.org/packages/stats/bioc/", pkg, "/", 
                   pkg, "_", year, "_stats.tab")
-    n <- try(read.table(url, header = TRUE)[13, "Nb_of_distinct_IPs"],
-             silent = TRUE)
+    n <- try(suppressWarnings(
+      read.table(url, header = TRUE)[13, "Nb_of_distinct_IPs"]),
+      silent = TRUE)
     if (is(n, "try-error")) {
       n <- NA
     }
