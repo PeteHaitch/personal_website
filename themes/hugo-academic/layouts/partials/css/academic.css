@@ -141,7 +141,7 @@ video {
 figcaption:before {
   font-weight: 700;
   text-transform: uppercase;
-  content: "Figure " counter(captions) ": ";
+  /*content: "Figure " counter(captions) ": "; */
 }
 
 figcaption {
