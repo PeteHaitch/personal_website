@@ -10,8 +10,8 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Bioinformatics",
     "R/Bioconductor",
+    "Bioinformatics",
     "DNA methylation"
   ]
 
