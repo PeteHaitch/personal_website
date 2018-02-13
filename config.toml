@@ -67,6 +67,7 @@ defaultContentLanguageInSubdir = false
   # TODO: Check out Gravatar
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   # TODO: Crop Peter_Hickey_portrait.jpg to fit
+  # TODO: Why isn't this profile pic showing up on netlify?
   avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "peter.hickey@gmail.com"
   address = "Johns Hopkins Bloomberg School of Public Health, 615 North Wolfe Street, Baltimore, MD, 21202, USA"
@@ -265,14 +266,25 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Presentations"
+  url = "#talks"
   weight = 3
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Contact"
+  url = "#contact"
   weight = 4
+
+# TODO: Add project pages
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 3
+
+#[[menu.main]]
+#  name = "Publications"
+#  url = "#publications_selected"
+#  weight = 4
 
 # TODO: Add a teaching page?
 #[[menu.main]]
@@ -281,12 +293,6 @@ defaultContentLanguageInSubdir = false
 #  weight = 5
 
 # TODO: Add other top-level links? E.g., An 'other' page with Japan blog?
-
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 5
 
 # Taxonomies.
 [taxonomies]
