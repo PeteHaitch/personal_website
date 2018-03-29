@@ -13,14 +13,14 @@ header:
 ---
 
 I attended a talk by Dr Stephen Turner, the founder and Chief Technology 
-Officer of [Pacific Biosciences](http://www.pacificbiosciences.com/), promoting 
+Officer of [Pacific Biosciences](https://www.pacificbiosciences.com/), promoting 
 PacBio's SMRT (**S**ingle **M**olecule **R**eal **T**ime) sequencing platform. 
 While I'd heard of the "next-next-generation" of sequencing technologies at 
 least 18 months ago, this was the first time I'd paid much attention to them. 
 What sets the "next-next-gen" from the "next-gen" platforms (why won't this 
 terminology die already!) is that rather than sequencing a cluster (Illumina) 
 or a bead (SOLiD) of amplified and identical molecules we sequence a single 
-molecule. As [Pushkarev et al.](http://www.nature.com/nbt/journal/v27/n9/abs/nbt.1561.html) 
+molecule. As [Pushkarev et al.](https://www.nature.com/nbt/journal/v27/n9/abs/nbt.1561.html) 
 explain, "Single-molecule sequencing enabled analysis of human genomic 
 information without the need for cloning, amplification or ligation". And there 
 are many other cool things you can do with single molecule sequencing as 
@@ -29,7 +29,7 @@ Stephen did a great job of showing.
 The RS is PacBio's first commercial kit and I believe only a handful of 
 customers currently have access to the machines. The PacBio technology also 
 uses polymerase, which is different to existing technologies (I need to read up 
-on this to understand it better) and is built on the concept of a [zero-mode waveguide](http://en.wikipedia.org/wiki/Zero-mode_waveguide) 
+on this to understand it better) and is built on the concept of a [zero-mode waveguide](https://en.wikipedia.org/wiki/Zero-mode_waveguide) 
 that allows sequencing of 2-3bp per second. Now while this may sound slow there 
 are 75,000 such processes being performed in parallel on a single plate on the 
 RS. Thus, Stephen claimed a sequencing time of less than one day for small-ish 
@@ -58,8 +58,8 @@ theory):
 - **Gene fusion detection**: No more inferring gene fusion boundaries by split reads, just read it off the sequence
 - **Sequencing "difficult" regions**: GC-rich regions of the genome are notoriously difficult to sequence. The PCR cycles necessary for most experiments introduce bias whereby GC-rich and GC-poor regions of the genome are sequenced less often than those made up of ~50% GC. The RS does not appear to suffer from this bias, likely because no PCR amplification is necessary. Similar "difficult" regions are the CGG repeats of central important in Fragile X syndrome.
 - **Finishing microbial genomes**: Many of the published microbial genomes are not _finished_ or _complete_ in the same sense as the human genome. For example, genomes known to be comprised of a one or two chromosomes may be assembled as tens of separate contigs. The long reads lengths of the RS enable these contigs to be be joined by sequencing the contig boundaries.
-- **Mapping disease outbreaks and sources**: The RS was used in establishing the origin of the [Haitian cholera outbreak](http://www.nejm.org/doi/full/10.1056/NEJMoa1012928) and the [German _E. Coli_ outbreak of 2011](http://www.nejm.org/doi/full/10.1056/NEJMoa1106920).
-- **Epigenetics**: This had me particularly interested. Not only can the RS sequence your ordinary nucleotides, it can directly sequence DNA modifications. And not just the "simple" modifications like 5mC, but more exotic types such as 5-hmC, 4-mC, 6-mA, base J, Clucosyl-5-hmC, DNA damager, dU and ribonucleotides. I think there were some twenty four in total, of which all but three were new to me. Very exciting stuff and who knows what will be found once we can perform this kind of analysis as standard. The beauty of this is that no modification of the sample is required to read-out these DNA modifications unlike, for example, the bisulfite conversion necessary for studying 5meC with current technologies (and which is also unable to distinguish between 5meC and 5-hmC. See [Flusberg et al. (Nature, 2010)](http://www.ncbi.nlm.nih.gov/pubmed/20453866) for a proof of principle study using the PacBio technology to detect DNA methylation. The hairpin adapters also allow for experiments designed to detect hemi-methylation vs. full methylation.
+- **Mapping disease outbreaks and sources**: The RS was used in establishing the origin of the [Haitian cholera outbreak](https://www.nejm.org/doi/full/10.1056/NEJMoa1012928) and the [German _E. Coli_ outbreak of 2011](https://www.nejm.org/doi/full/10.1056/NEJMoa1106920).
+- **Epigenetics**: This had me particularly interested. Not only can the RS sequence your ordinary nucleotides, it can directly sequence DNA modifications. And not just the "simple" modifications like 5mC, but more exotic types such as 5-hmC, 4-mC, 6-mA, base J, Clucosyl-5-hmC, DNA damager, dU and ribonucleotides. I think there were some twenty four in total, of which all but three were new to me. Very exciting stuff and who knows what will be found once we can perform this kind of analysis as standard. The beauty of this is that no modification of the sample is required to read-out these DNA modifications unlike, for example, the bisulfite conversion necessary for studying 5meC with current technologies (and which is also unable to distinguish between 5meC and 5-hmC. See [Flusberg et al. (Nature, 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20453866) for a proof of principle study using the PacBio technology to detect DNA methylation. The hairpin adapters also allow for experiments designed to detect hemi-methylation vs. full methylation.
 - **Direct RNA sequencing**: Rather than converting the RNA to cDNA and then sequencing, PacBio are developing a method that uses reverse transcriptase rather than the polymerase so they can directly sequence the RNA molecules. This would then allow them to search for RNA-modifications, analogous to the DNA-modifications described above!
 
 All in all, this was a very exciting talk and gave a peak into what will be 

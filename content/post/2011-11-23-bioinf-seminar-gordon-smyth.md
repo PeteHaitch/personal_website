@@ -18,11 +18,11 @@ The `voom` method has now been
 
 # Original post
 
-[Gordon Smyth](http://www.wehi.edu.au/faculty_members/professor_gordon_smyth) 
-is well known for his development of the [**limma** Bioconductor package](http://www.bioconductor.org/packages/release/bioc/html/limma.html) for 
+[Gordon Smyth](https://www.wehi.edu.au/faculty_members/professor_gordon_smyth) 
+is well known for his development of the [**limma** Bioconductor package](https://www.bioconductor.org/packages/release/bioc/html/limma.html) for 
 the analysis of differential gene expression using microarrays. More recently 
 his group has led the way in the development of software for the statistical 
-analysis of gene expression using RNA-seq with the [`edgeR` Bioconductor package](http://bioconductor.org/packages/release/bioc/html/edgeR.html) 
+analysis of gene expression using RNA-seq with the [`edgeR` Bioconductor package](https://bioconductor.org/packages/release/bioc/html/edgeR.html) 
 and the `voom()` method in **limma**. Today, Gordon spoke about modeling the 
 variance in RNA-seq data for studying gene expression, in particular using the 
 `voom()` method, and contrasted this approach with that taken by `edgeR` (and 

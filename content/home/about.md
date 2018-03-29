@@ -32,7 +32,7 @@ weight = 5
 
 I am currently a postdoctoral research fellow in the Department of 
 Biostatistics at Johns Hopkins University working in the research group of 
-[Kasper Hansen](http://www.hansenlab.org/). I develop statistical methods and 
+[Kasper Hansen](https://www.hansenlab.org/). I develop statistical methods and 
 software to summarise and understand genomics data.
 
 This site include my (very) occasional [blog on statistics and genomics](/post), along 

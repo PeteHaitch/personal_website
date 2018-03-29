@@ -19,9 +19,9 @@ my dearest friends, Kirsty and Kelly. I had the added excitement of helping
 officate their ceremony and could not have been more thrilled. There's was to 
 be the first legal same-sex marriage in Tasmania, the southernmost state of 
 Australia. Needless to say, it was a bloody incredible day, as recorded in 
-several media articles, including [The Advocate](http://www.theadvocate.com.au/story/5153850/the-historic-wedding-of-kelly-and-kirsty/), [PEDESTRIAN.TV](https://www.pedestrian.tv/dating/kirsty-and-kelly-albion/), and [The Mercury (paywalled)](http://www.themercury.com.au/lifestyle/kelly-mackenzie-and-kirsty-albion-say-wedding-in-tasmania-best-day-of-our-lives/news-story/baea7c3453679d478034bb151aaed78f).
+several media articles, including [The Advocate](http://www.theadvocate.com.au/story/5153850/the-historic-wedding-of-kelly-and-kirsty/), [PEDESTRIAN.TV](https://www.pedestrian.tv/dating/kirsty-and-kelly-albion/), and [The Mercury (paywalled)](https://www.themercury.com.au/lifestyle/kelly-mackenzie-and-kirsty-albion-say-wedding-in-tasmania-best-day-of-our-lives/news-story/baea7c3453679d478034bb151aaed78f).
 
-{{< figure src="https://images.pixieset.com/05992701/bfe33d946d5eb9657bbe2e8885252a61-xlarge.jpg" title="Brides" link="https://images.pixieset.com/05992701/bfe33d946d5eb9657bbe2e8885252a61-xlarge.jpg" attr="Fern and Stone Photography" attrlink="http://fernandstonephotography.com/" alt="The brides">}}
+{{< figure src="https://images.pixieset.com/05992701/bfe33d946d5eb9657bbe2e8885252a61-xlarge.jpg" title="Brides" link="https://images.pixieset.com/05992701/bfe33d946d5eb9657bbe2e8885252a61-xlarge.jpg" attr="Fern and Stone Photography" attrlink="https://fernandstonephotography.com/" alt="The brides">}}
 
 But what gift do you get a couple to celebrate such a beautiful and historic 
 occasion? I wanted to give them something personal and decided to create an 
@@ -38,7 +38,7 @@ Kirsty's and Kelly's vows to one another.
 {{< figure src="/img/ceremony_sentence_plot_small.png" title="Wedding aRtwoRk" link="/img/ceremony_sentence_plot.png" caption="Nine sentence drawings of Kirsty and Kelly's wedding ceremony">}}
 
 Sentence drawings were pioneered by 
-[Stefanie Posavec](http://www.stefanieposavec.com/writing-without-words/), but 
+[Stefanie Posavec](https://www.stefanieposavec.com/writing-without-words/), but 
 I was inspired by this great [article](https://htmlpreview.github.io/?https://github.com/halhen/viz-pub/blob/master/sentence-drawings/code.nb.html) 
 by [Henrik Lindberg (@helhen)](https://github.com/halhen). 
 
@@ -48,4 +48,4 @@ changes between the nine panels is the angle between adjacent lines.
 
 I'm really happy with how it turned out, and so are Kirsty and Kelly!
 
-{{< figure src="https://images.pixieset.com/05992701/fa50381064e80c8279d90944c3d8b659-xlarge.jpg" title="Very happy and proud friends" link="https://images.pixieset.com/05992701/fa50381064e80c8279d90944c3d8b659-xlarge.jpg" attr="Fern and Stone Photography" attrlink="http://fernandstonephotography.com/" alt="Grangey">}}
+{{< figure src="https://images.pixieset.com/05992701/fa50381064e80c8279d90944c3d8b659-xlarge.jpg" title="Very happy and proud friends" link="https://images.pixieset.com/05992701/fa50381064e80c8279d90944c3d8b659-xlarge.jpg" attr="Fern and Stone Photography" attrlink="https://fernandstonephotography.com/" alt="Grangey">}}

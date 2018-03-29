@@ -47,7 +47,7 @@ I find that ratio of packages to developers pretty exciting: lots of people
 are contributing their expertise while the project as a whole has 
 maintained a very high level of interoperability. Martin also kicked off an 
 ongoing discussion on how the project should try to integrate with and learn 
-lessons from the very popular [tidyverse](http://tidyverse.org/) of R 
+lessons from the very popular [tidyverse](https://tidyverse.org/) of R 
 packages. 
 
 
@@ -59,7 +59,7 @@ something 10X Genomics [specifically advised against (for good reason, at the ti
 Oh, and he did it on a desktop with 8 GB of RAM. Aaron also gave an intro to 
 his cryptically named **beachmat** package 
 ([slides](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Dday/AaronLun_beachmat.pdf)).
-[**beachmat**](http://bioconductor.org/packages/beachmat/) 
+[**beachmat**](https://bioconductor.org/packages/beachmat/) 
 provides a unified C++ API for R matrix (and matrix-like) data structures. This 
 will be very useful to package developers as they come to grips with providing 
 algorithms that work for data stored in a variety of data structures, from 
@@ -99,14 +99,14 @@ led a discussion on infrastructure for efficient storage and processing of
 large-scale single-cell genomics data ([slides](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/BOF/SCE.html), [notes](https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/BOF/Infrastructureforefficientstorageandprocessin.html), [discussion](https://support.bioconductor.org/p/98844/)). 
 There has been a flurry of recent activity by Bioconductor developers on this 
 topic, including the development of the 
-[**SingleCellExperiment**](http://bioconductor.org/packages/SingleCellExperiment/) 
+[**SingleCellExperiment**](https://bioconductor.org/packages/SingleCellExperiment/) 
 package that aims to provide a common S4 class for storing single-cell genomics 
 data to improve interoperability between packages. Several of the key 
 single-cell RNA-seq packages, including 
-[**scater**](http://bioconductor.org/packages/scater/), 
-[**scran**](http://bioconductor.org/packages/scran), 
-[**MAST**](http://bioconductor.org/packages/MAST), and 
-[**zinbwave**](http://bioconductor.org/packages/zinbwave), have already made 
+[**scater**](https://bioconductor.org/packages/scater/), 
+[**scran**](https://bioconductor.org/packages/scran), 
+[**MAST**](https://bioconductor.org/packages/MAST), and 
+[**zinbwave**](https://bioconductor.org/packages/zinbwave), have already made 
 the switch thanks to the tireless work of their developers. The 
 _SingleCellExperiment_ class builds on the _SummarizedExperiment_ class, a 
 workhorse of Bioconductor, which brings immediate benefits, including the
@@ -131,7 +131,7 @@ aims to port the
 [**matrixStats**](https://cran.r-project.org/package=matrixStats) API to 
 support _DelayedMatrix_ objects and derived objects. Amongst the other 
 lightning talks, I was very excited that 
-[Lucas Schiffer](http://cunyisph.org/team/lucas-schiffer/) 
+[Lucas Schiffer](https://cunyisph.org/team/lucas-schiffer/) 
 has added the capability to use markdown on the 
 [Bioconductor support site](https://support.bioconductor.org/). Another 
 lightning talk that got me excited was by 

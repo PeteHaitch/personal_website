@@ -13,7 +13,7 @@ header:
   image: ''
 ---
 
-[Dr Alicia Oshlack](http://www.mcri.edu.au/research/core-facilities/bioinformatics/), 
+[Dr Alicia Oshlack](https://www.mcri.edu.au/research/core-facilities/bioinformatics/), 
 head of Bioinformatics at the Murdoch Children's Research Institute and 
 formerly of WEHI Bioinformatics, gave today's Bioinformatics seminar at WEHI. 
 Her topic was "Analysing Human Infinium 450k Methylation Arrays", in particular 
@@ -46,11 +46,11 @@ resolution. Some examples of region-level resolution techonologies are
 _MeDip-seq_ and _MBD capture-seq_, while _whole-genome bisulfite sequencing_, 
 _reduced representation bisulfite sequencing_ (RRBS) and Illumina Infinium 
 methylation arrays (such as the 
-[450k beadchip](http://www.illumina.com/products/methylation_450_beadchip_kits.ilmn)) 
+[450k beadchip](https://www.illumina.com/products/methylation_450_beadchip_kits.ilmn)) 
 are examples of single base-pair resolution assays.
 
 The recently released and 
-[published](http://www.ncbi.nlm.nih.gov/pubmed/21593595) Infinium 
+[published](https://www.ncbi.nlm.nih.gov/pubmed/21593595) Infinium 
 HumanMethylation450 BeadChip replaces the old 27k Infinium methylation array 
 and provides a cheap way to study DNA methylation at 450,000 CpGs across tens 
 of human samples. I mean 'cheap' in comparison to either whole-genome bisulfite 
@@ -64,7 +64,7 @@ Illumina's genotyping assays.
 The 450k chip features two types of probes - Illumina I and Illumina II style 
 probes. Infinium I probes assume the whole probe is methylated or unmethylated 
 (25% of probes on the chip) while Infinium II probes contain redundant bases 
-(R's in [IUPAC notation](http://www.bioinformatics.org/sms2/iupac.html)) at the 
+(R's in [IUPAC notation](https://www.bioinformatics.org/sms2/iupac.html)) at the 
 G nucleotide in CpGs within the probe body. The Infinium I probes will 
 obviously have binding problems at positions that are partially methylated 
 since they assume uniform methylation status across the probe body. The 
@@ -102,8 +102,8 @@ normalisation.
 Alicia presented several graphs showing SWAN improved the analysis of 450k chip 
 data compared to either no normalisation or only within-array or across-array 
 normalisation. SWAN is an R function that should soon be available in the 
-[**minfi**](http://www.bioconductor.org/packages/release/bioc/html/minfi.html) 
-Bioconductor R package.**minfi** and [**methylumi**](http://www.bioconductor.org/packages/release/bioc/html/methylumi.html) 
+[**minfi**](https://www.bioconductor.org/packages/release/bioc/html/minfi.html) 
+Bioconductor R package.**minfi** and [**methylumi**](https://www.bioconductor.org/packages/release/bioc/html/methylumi.html) 
 are two packages for the downstream analysis of Illumina methylation arrays, 
-though Alicia noted that many functions in [**limma**](http://bioconductor.org/packages/release/bioc/html/limma.html) 
+though Alicia noted that many functions in [**limma**](https://bioconductor.org/packages/release/bioc/html/limma.html) 
 are also useful for analysing these arrays.

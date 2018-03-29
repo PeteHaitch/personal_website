@@ -13,7 +13,7 @@ header:
 ---
 
 Rick Tankard, who is a research assistant in the 
-[Bahlo Lab](http://www.wehi.edu.au/faculty_members/dr_melanie_bahlo) at WEHI, 
+[Bahlo Lab](https://www.wehi.edu.au/faculty_members/dr_melanie_bahlo) at WEHI, 
 gave a seminar discussing the quality scores produced by the Illumina 
 sequencing machines. He also discussed the analysis pipeline he has built, in 
 conjunction with other members of the Bahlo lab, for the detection of rare 
@@ -39,14 +39,14 @@ general overconfidence in the quality of the base-calls.
 
 Roughly speaking, base-quality recalibration tries to adjust the 
 sequencer-produced base qualities by comparing them to the observed mismatch 
-frequencies in the aligned data. [`GATK`](http://www.broadinstitute.org/gsa/wiki/index.php/The_Genome_Analysis_Toolkit) 
-and the [`Novoalign`](http://www.novocraft.com/main/page.php?s=novoalign) 
+frequencies in the aligned data. [`GATK`](https://www.broadinstitute.org/gsa/wiki/index.php/The_Genome_Analysis_Toolkit) 
+and the [`Novoalign`](http://www.novocraft.com/products/novoalign/) 
 aligner both perform base-quality recalibration, though in slightly different 
 ways and at different points in the analysis pipeline. `GATK` is more 
-transparent in [how it actually does the recalibration](http://www.ncbi.nlm.nih.gov/pubmed?term=A%20framework%20for%20variation%20discovery%20and%20genotyping%20using%20next-generation%20DNA%20sequencing%20data.).
+transparent in [how it actually does the recalibration](https://www.ncbi.nlm.nih.gov/pubmed/21478889).
 
 Rick also discussed aligning reads against an _ambiguous reference genome_. An 
-ambiguous reference genome uses the [IUPAC DNA codes](http://www.bioinformatics.org/sms2/iupac.html) 
+ambiguous reference genome uses the [IUPAC DNA codes](https://www.bioinformatics.org/sms2/iupac.html) 
 at positions of known variation (such as SNPs) so that reads containing the 
 non-reference allele at these sites are not unduly penalised. `Novoalign` is 
 able to align against an ambiguous reference but I don't believe many aligners 

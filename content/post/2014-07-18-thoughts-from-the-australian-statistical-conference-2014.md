@@ -13,7 +13,7 @@ header:
 ---
 
 I started this post as a straight review of the
-[Australian Statistical Conference 2014](http://ims-asc2014.com/), but it 
+Australian Statistical Conference 2014, but it 
 turned into something else about large conferences and what makes me excited 
 about statistics (spoiler alert, the answer is data science).
 
@@ -54,7 +54,7 @@ statisticians who I really admire, including Matthew Stephens
 Matthew gave a really enjoyable IMS Medallion lecture, _False Discovery Rates: A New Deal_. 
 What I particularly liked about Matthew's talk is that he spent the first ten 
 minutes discussing _how_ to do good work, including organisational skills, 
-git/GitHub and [`knitr`](http://yihui.name/knitr/). See [here (pdf)](https://github.com/stephens999/ash/blob/master/talks/UCstat2014.pdf?raw=true) 
+git/GitHub and [`knitr`](https://yihui.name/knitr/). See [here (pdf)](https://github.com/stephens999/ash/blob/master/talks/UCstat2014.pdf?raw=true) 
 for a previous version of this talk and 
 [GitHub](https://github.com/stephens999/ash) for the `ashR` R package that 
 implements the adaptive shrinking techniques Matthew described. 
@@ -78,7 +78,7 @@ certainly not limited to academic or industrial research. In fact, most are
 probably tackled outside of these environments, which means I don't hear so 
 much about them since I work in an academic research institution.
 
-For example, [Sheila Bird](http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/sheila-bird/)'s 
+For example, [Sheila Bird](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/sheila-bird/)'s 
 talk on improving prisoners' access to harm-reduction - such as Hepatitis B 
 immunisation - which prompted a change in public policy, was a highlight of the 
 conference. I'd love to see more talks like Sheila's about statistics playing a 
@@ -94,7 +94,7 @@ There's a fair bit of hand-wringing these days at statistics meetings about
 whether statisticians have 'missed the boat' when it comes to data science and 
 whether there is a difference between data science and statistics (yes, I think 
 there is and that the difference is only getting bigger). While I missed his 
-talk, [Bob Rodriguez](http://www.stat.unc.edu/faculty/rodrig.html), a director at 
+talk, Bob Rodriguez, a director at 
 SAS and a former president of the American Statistical Association, reportedly 
 had some astonishing numbers on how few people are graduating with a statistics 
 degree compared to how many jobs are predicted to be created that require data 
