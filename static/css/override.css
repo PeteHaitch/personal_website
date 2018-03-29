@@ -1,0 +1,8 @@
+#profile .portrait {
+  background-image: url('../img/portrait.jpg');
+  width: 200px;
+  height: 230px;
+  margin: 0 auto;
+  border-radius: 30%;
+  background-size: cover;
+}
