@@ -30,10 +30,15 @@ weight = 5
 
 # Biography
 
+I enjoy making sense of data and making it easier for others to do the same.
+
 I am currently a postdoctoral research fellow in the Department of 
 Biostatistics at Johns Hopkins University working in the research group of 
 [Kasper Hansen](https://www.hansenlab.org/). I develop statistical methods and 
 software to summarise and understand genomics data.
 
-This site include my (very) occasional [blog on statistics and genomics](/post), along 
-with the usual academic fare of my papers, [presentations](/talk), {{% staticref "cv/Peter_Hickey_CV.pdf" %}}CV (pdf){{% /staticref %}}, software and data.
+This site include my (very) occasional 
+[blog on statistics and genomics](/post), along with the usual academic fare of 
+my papers, [presentations](/talk), 
+{{% staticref "cv/Peter_Hickey_CV.pdf" %}}CV (pdf){{% /staticref %}}, software 
+and data.

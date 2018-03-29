@@ -68,7 +68,7 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   # TODO: Crop Peter_Hickey_portrait.jpg to fit
   # TODO: Why isn't this profile pic showing up on netlify?
-  avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "headshot-min.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "peter.hickey@gmail.com"
   address = "Johns Hopkins Bloomberg School of Public Health, 615 North Wolfe Street, Baltimore, MD, 21202, USA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
