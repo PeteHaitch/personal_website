@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health", url = "https://www.biostat.jhsph.edu/" } ]
+  organizations = [ { name = "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/departments/biostatistics/" } ]
 
   # TODO: Check out Gravatar
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
