@@ -33,10 +33,12 @@ projects = []
 tags = ["PhD", "PhD completion seminar", "PhD defense", "DNA methylation"]
 
 # Links (optional).
-url_pdf = ""
-url_slides = "https://speakerdeck.com/petehaitch/making-sense-of-dna-methylation-data"
+url_pdf = "https://www.peterhickey.org/slides/2014/Peter_Hickey_PhD_completion_seminar.pdf
+"
+url_slides = ""
 url_video = "https://www.youtube.com/watch?v=WVC03AH2oqs"
 url_code = ""
+
 
 # Does the content use math formatting?
 math = false

@@ -34,7 +34,7 @@ tags = ["DNA methylation", "neuroepigenomics", "ATAC-seq", "neuroscience", "WGBS
 
 # Links (optional).
 # TODO
-url_pdf = ""
+url_pdf = "https://www.peterhickey.org/slides/2017/2017-10-31_Epigenetics_Australia.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
