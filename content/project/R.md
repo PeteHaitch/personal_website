@@ -1,10 +1,10 @@
 +++
-title = "R packages"
+title = "R"
 date = 2018-03-31T15:20:06-04:00
 draft = false
 
 # Project summary to display on homepage.
-summary = "R packages"
+summary = "Some of the things I've done with R"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "Rlogo.png"
