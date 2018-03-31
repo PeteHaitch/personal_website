@@ -26,18 +26,17 @@ selected = false
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = []
+projects = ["DNA_methylation"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["PhD", "PhD completion seminar", "PhD defense", "DNA methylation"]
+tags = ["PhD", "DNA methylation"]
 
 # Links (optional).
 url_pdf = "slides/2014/Peter_Hickey_PhD_completion_seminar.pdf"
 url_slides = ""
 url_video = "https://www.youtube.com/watch?v=WVC03AH2oqs"
 url_code = ""
-
 
 # Does the content use math formatting?
 math = false

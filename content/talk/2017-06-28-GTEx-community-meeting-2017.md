@@ -26,11 +26,11 @@ selected = true
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["mCBrainMap"]
+projects = ["DNA_methylation"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["DNA methylation", "neuroepigenomics", "ATAC-seq", "neuroscience", "WGBS", "neuroepigenetics", "GTEx", "eGTEx"]
+tags = ["DNA methylation", "neuroepigenomics", "ATAC-seq", "neuroscience", "neuroepigenetics", "GTEx", "eGTEx", "postdoc"]
 
 # Links (optional).
 # TODO

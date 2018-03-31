@@ -266,20 +266,19 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+
+[[menu.main]]
   name = "Presentations"
   url = "#talks"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 4
-
-# TODO: Add project pages
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 3
+  weight = 5
 
 #[[menu.main]]
 #  name = "Publications"
