@@ -182,7 +182,10 @@ defaultContentLanguageInSubdir = false
     'Manuscript',  # 3
     'Report',  # 4
     'Book',  # 5
-    'Book section'  # 6
+    'Book section',  # 6
+    'Thesis', # 7
+    'Conference abstract', # 8
+    'Preprint' #9
   ]
 
   # Configuration of talk pages.
@@ -276,14 +279,14 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 5
 
-#[[menu.main]]
-#  name = "Publications"
-#  url = "#publications_selected"
-#  weight = 4
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
 
 # TODO: Add a teaching page?
 #[[menu.main]]
