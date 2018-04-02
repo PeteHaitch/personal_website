@@ -1,7 +1,8 @@
 ---
 title: Wedding aRtwoRk
 author: Peter Hickey
-date: '2018-02-05'
+date: '2018-04-02'
+publishDate: '2018-04-03'
 categories:
   - R
 tags:
@@ -14,7 +15,7 @@ header:
   image: wedding_header.jpg
 ---
 
-A few weeks ago, I returned home to Australia to attend the wedding of two of 
+Over the Australian summer, I returned home to attend the wedding of two of 
 my dearest friends, Kirsty and Kelly. I had the added excitement of helping 
 officate their ceremony and could not have been more thrilled. There's was to 
 be the first legal same-sex marriage in Tasmania, the southernmost state of 
