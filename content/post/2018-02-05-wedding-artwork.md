@@ -2,7 +2,7 @@
 title: Wedding aRtwoRk
 author: Peter Hickey
 date: '2018-04-02'
-publishDate: '2018-04-03T16:00:00-4:00'
+publishDate: '2018-04-03T16:00:00-04:00'
 categories:
   - R
 tags:
