@@ -50,7 +50,7 @@ The final piece included nine variations of this sentence drawing; all that
 changes between each panel is the angle between adjacent lines. With this, 
 I was trying to capture how in life we can end up with very different results depending on where and how we choose to make a change.
 
-{{< figure src="/img/ceremony_sentence_plot_small.png" title="Wedding aRtwoRk" link="/img/ceremony_sentence_plot.png" caption="Nine sentence drawings of Kirsty and Kelly's wedding ceremony">}}
+{{< figure src="/img/ceremony_sentence_plot_small.png" title="Wedding aRtwoRk" link="/img/ceremony_sentence_plot.png" caption="Nine sentence drawings of Kirsty and Kelly's wedding ceremony (click for higher resolution version)">}}
 
 I'm really happy with how it turned out. More importantly, so are Kirsty and 
 Kelly!
