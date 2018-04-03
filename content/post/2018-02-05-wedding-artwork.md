@@ -43,8 +43,9 @@ by [Henrik Lindberg (@helhen)](https://github.com/halhen). Thanks, Henrik!
 
 Using this technique, each sentence from the ceremony is visualised as a line, where the length of the 
 line is determined by the number of words and the colour of the line is based 
-on sentiment analysis. These lines are then connected end-to-end following the 
-order of the ceremony. 
+on [sentiment analysis](https://www.tidytextmining.com/sentiment.html) of the 
+text. These lines are then connected end-to-end following the order of the 
+ceremony. 
 
 The final piece included nine variations of this sentence drawing; all that 
 changes between each panel is the angle between adjacent lines. With this, 
