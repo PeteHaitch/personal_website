@@ -9,6 +9,7 @@ tags:
   - aRt
   - sentence drawing
   - same-sex marriage
+  - dataviz
 slug: wedding-artwork
 header:
   caption: Kirsty and Kelly's wedding
@@ -17,7 +18,7 @@ header:
 
 Over the Australian summer, I flew home from Baltimore to attend the wedding of 
 two of my dearest friends, Kirsty and Kelly. I had the added excitement of 
-helping officate their ceremony and could not have been more thrilled. There's 
+helping officiate their ceremony and could not have been more thrilled. There's 
 was to be the first legal same-sex marriage in Tasmania, the southernmost state 
 of Australia. Needless to say, it was a bloody incredible day, as recorded in 
 several media articles, including 
