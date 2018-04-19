@@ -20,16 +20,16 @@ editor_options:
 
 # Education and research experience
 
-- *2016-present*: **Postdoctoral Fellow** Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA.
+- *2016 -- present*: **Postdoctoral Fellow** Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA.
     - Advisor: [Assistant Professor Kasper Hansen](https://www.hansenlab.org/)
-- *2011-2015*: **PhD (Statistics)** Department of Mathematics and Statistics, The University of Melbourne, Australia.
+- *2015*: **PhD (Statistics)** Department of Mathematics and Statistics, The University of Melbourne, Australia.
     - Thesis: The statistical analysis of high-throughput assays for studying DNA methylation 
     - Advisors: [Professor Terry Speed](https://www.wehi.edu.au/people/terry-speed) and Professor Peter Hall
-- *2009-2015*: **Research Assistant** Bioinformatics Division, Walter and Eliza Hall Institute, Melbourne, Australia.
+- *2010 -- 2015*: **Research Assistant** Bioinformatics Division, Walter and Eliza Hall Institute, Melbourne, Australia.
     - Advisor: [Professor Melanie Bahlo](https://www.wehi.edu.au/people/melanie-bahlo)
-- *2008-2009*: **Undergraduate Research Opportunities Program scholar** Bioinformatics Division, Walter and Eliza Hall Institute, Melbourne, Australia.
+- *2008 -- 2009*: **Undergraduate Research Opportunities Program Scholar** Bioinformatics Division, Walter and Eliza Hall Institute, Melbourne, Australia.
     - Advisor: [Professor Melanie Bahlo](https://www.wehi.edu.au/people/melanie-bahlo)
-- *2006-2009*: **Bachelor of Science (Mathematics and Statistics) with First Class Honours** The University of Melbourne, Australia.
+- *2009*: **Bachelor of Science (Mathematics and Statistics) with First Class Honours** The University of Melbourne, Australia.
     - Thesis: X chromosome association testing in genome-wide association studies
     - Advisors: [Professor Melanie Bahlo](https://www.wehi.edu.au/people/melanie-bahlo) and [Professor Richard Huggins](https://www.findanexpert.unimelb.edu.au/display/person86388)
 
