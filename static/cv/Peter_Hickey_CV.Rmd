@@ -14,18 +14,19 @@ editor_options:
 - Email: peter.hickey@gmail.com
 - GitHub: [PeteHaitch](https://github.com/petehaitch)
 - Web: [www.peterhickey.org](www.peterhickey.org)
-- Phone: +1-443-515-7937
-- Address: Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, 615 N. Wolfe St, E3527, Baltimore, MD 21202, USA
+- Phone: +61-412-655-820
+- Address: Molecular Medicine Division, Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville Victoria 3052, Australia
 - Australian Citizen
 
 # Education and research experience
 
-- *2016 -- present*: **Postdoctoral Fellow** Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA.
+- *2018 -- present*: **Senior Research Officer** Molecular Medicine Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, Australia. 
+- *2016 -- 2018*: **Postdoctoral Fellow** Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA.
     - Advisor: [Assistant Professor Kasper Hansen](https://www.hansenlab.org/)
 - *2015*: **PhD (Statistics)** Department of Mathematics and Statistics, The University of Melbourne, Australia.
     - Thesis: The statistical analysis of high-throughput assays for studying DNA methylation 
     - Advisors: [Professor Terry Speed](https://www.wehi.edu.au/people/terry-speed) and Professor Peter Hall
-- *2010 -- 2015*: **Research Assistant** Bioinformatics Division, Walter and Eliza Hall Institute, Melbourne, Australia.
+- *2010 -- 2015*: **Research Assistant** Bioinformatics Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, Australia.
     - Advisor: [Professor Melanie Bahlo](https://www.wehi.edu.au/people/melanie-bahlo)
 - *2008 -- 2009*: **Undergraduate Research Opportunities Program Scholar** Bioinformatics Division, Walter and Eliza Hall Institute, Melbourne, Australia.
     - Advisor: [Professor Melanie Bahlo](https://www.wehi.edu.au/people/melanie-bahlo)
@@ -218,12 +219,17 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 **TODO** Anthing else I can list? See what other people list for ideas
 --->
 
-## Grants 
+## Awards
 
-- *2015*: Bioconductor Travel Grant
+- *2018*: Bioconductor Travel Award
     - To attend the Bioconductor meeting in Seattle, USA
-- *2013*: EMBL Australia Travel Grant
-    - To attend the EMBL PhD Symposium in Heidelberg, Germany
+- *2015*: Bioconductor Travel Award
+    - To attend the Bioconductor meeting in Seattle, USA
+- *2015*: Edith Moffat Travel Award
+    - To interview for international for postdoctoral positions and attend the European Bioconductor meeting
+- *2013*: Prize for best lightning talk, Australian Epigenetics Conference 2013
+- *2013*: Prize for third best oral presentation, Young Statisticians Conference 2013
+- *2010*: Best presentation (Statistics), 2010 Victorian Mathematics and Students’ Conference
 
 ## Scholarships
 
@@ -234,13 +240,11 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
     - A competitive scholarship awarded to complete Honours degree in statistics, stochastic processes or operations research
 - *2009*: Alan W Harris Honours scholarship, The Walter and Eliza Hall Institute of Medical Research
 
-## Awards
 
-- *2015*: Edith Moffat Travel Award
-    - To interview for international for postdoctoral positions and attend the European Bioconductor meeting
-- *2013*: Prize for best lightning talk, Australian Epigenetics Conference 2013
-- *2013*: Prize for third best oral presentation, Young Statisticians Conference 2013
-- *2010*: Best presentation (Statistics), 2010 Victorian Mathematics and Students’ Conference
+## Grants 
+
+- *2013*: EMBL Australia Travel Grant
+    - To attend the EMBL PhD Symposium in Heidelberg, Germany
 
 # Presentations
 
@@ -254,9 +258,12 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 
 ### Conferences
 
+- *2018* [**Lessons from switching to on-disk storage using DelayedArray containers.**](https://www.peterhickey.org/talk/2018-07-25-bioc2018/) Contributed talk, BioC 2018 Developers’ Day, Toronto, Canada (25/7)
+- *2018* [**DelayedArray: A tibble for arrays.**](https://www.peterhickey.org/talk/2018-07-13-user2018/) Contributed talk, useR! 2018, Brisbane, Australia (13/07)
 - *2017*: **Mapping the human brain epigenome and its links to disease.** Contributed talk, Epigenetics 2017, Brisbane, Australia (31/10)
 - *2017*: **Neuronal brain region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric disease heritability.**. Contributed talk, GTEx Project Community Meeting, Rockville, USA (28/06)
 - *2017*: **Developing statistical methods for large epigenomic studies in the human brain**. Contributed talk, ENAR 2017 Spring Meeting, Washington D.C., USA (13/03)
+- *2017*: [**DelayedMatrixStats: Porting the matrixStats API to work with DelayedMatrix objects.**](https://www.peterhickey.org/talk/2017-07-26-bioc2017/) Lightning talk, BioC 2017, Boston, USA (26/07)
 - *2016*: **New features in `bsseq` for analysing large whole genome bisulfite-sequencing datasets**. Lightning talk, BioC 2016, San Francisco, USA (24/06)
 - *2016*: **The `GenomicTuples` package**. Lightning talk, BioC 2015 Developers’ Day, Seattle, USA (20/7)
 - *2015*: [**Genomic tuples and DNA methylation patterns**](https://peterhickey.org/GenomicTuples_BioC_2015.html). Contributed talk, European Bioconductor Developers’ Meeting, Heidelberg, Germany (12/01)
@@ -285,6 +292,7 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 
 ## Workshops
 
+- *2018:* [**Effectively using the DelayedArray framework to support the analysis of large datasets**](https://bioconductor.github.io/BiocWorkshops/effectively-using-the-delayedarray-framework-to-support-the-analysis-of-large-datasets.html). BioC 2018, Toronto, Canada (25/7)
 - *2016*: [**Analysing DNA methylation data with Bioconductor**](https://htmlpreview.github.io/?https://github.com/hansenlab/tutorial.450k/blob/master/inst/doc/methylation450k.html). BioC 2016, Palo Alto, USA (26/06)
 
 ## Tutoring
@@ -298,14 +306,27 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 
 ## Reviewing
 
-Referee for *Nature Methods*, *PLoS Genetics*, *Genome Biology*, *Bioinformatics*, *PLoS Computational Biology*, *Genetic Epidemiology*, *Heredity*, and *F1000*.
+Referee for *Nature Methods*, *PLoS Genetics*, *Genome Biology*, *Bioinformatics*, *Biostatistics*, *PLoS Computational Biology*, *Genetic Epidemiology*, *Heredity*, and *F1000*.
 
 ## Professional society memberships
 
 - Member, Statistical Society of Australia
 - Member, International Biometric Society (ENAR)
+- Member, Australasian Genomic Technologies Association 
 
 # References
+
+## Associate Professor Kasper Hansen
+
+Department of Biostatistics
+
+Johns Hopkins Bloomberg School of Public Health 615 North Wolfe Street, Baltimore, MD 21205-2179, USA
+
+Tel: +1-410-955-3067
+
+Fax: +1-410-955-0958
+
+Email: khansen@jhsph.edu
 
 ## Professor Terry Speed
 
@@ -318,18 +339,6 @@ Tel: +61 (0) 3 9345 2555
 Fax: +61 (0) 3 9347 0852
 
 Email: terry@wehi.edu.au
-
-## Assistant Professor Kasper Hansen
-
-Department of Biostatistics
-
-Johns Hopkins Bloomberg School of Public Health 615 North Wolfe Street, Baltimore, MD 21205-2179, USA
-
-Tel: +1-410-955-3067
-
-Fax: +1-410-955-0958
-
-Email: khansen@jhsph.edu
 
 ## Professor Melanie Bahlo
 
