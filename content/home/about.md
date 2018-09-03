@@ -32,13 +32,14 @@ weight = 5
 
 I enjoy making sense of data and making it easier for others to do the same.
 
-I am currently a postdoctoral research fellow in the Department of 
-Biostatistics at Johns Hopkins University working in the research group of 
-[Kasper Hansen](https://www.hansenlab.org/). I develop statistical methods and 
-software to summarise and understand genomics data.
+I am currently a senior research officer at the Walter and Eliza Hall Institute 
+of Medical Research where I lead the bioinformatics analysis for the Single 
+Cell Open Research Endeavour (SCORE). With the SCORE team, I collaborate with 
+scientists to design and analyse single-cell genomics experiments. I also 
+develop statistical methods and software to summarise and understand genomics 
+data, made available through [Bioconductor](https://bioconductor.org/).
 
-This site include my (very) occasional 
-[blog](/post), along with the usual academic fare of my papers, 
-[presentations](/talk), 
-{{% staticref "cv/Peter_Hickey_CV.pdf" %}}CV (pdf){{% /staticref %}}, software 
-and data.
+This site include my (very) occasional [blog](/post), along with the usual 
+academic fare of my papers, [presentations](/talk), 
+{{% staticref "cv/Peter_Hickey_CV.pdf" %}}CV (pdf){{% /staticref %}}, 
+software and data.
