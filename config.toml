@@ -56,13 +56,13 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Peter Hickey"
-  role = "Postdoctoral Research Fellow"
+  role = "Senior Research Officer"
   author = "Peter Hickey"
   description = "Personal website of Peter Hickey"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health", url = "https://www.jhsph.edu/departments/biostatistics/" } ]
+  organizations = [ { name = "Walter and Eliza Hall Institute of Medical Research", url = "https://www.wehi.edu.au/people/matthew-ritchie/239/matthew-ritchie-lab-team" } ]
 
   # TODO: Check out Gravatar
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
@@ -70,7 +70,7 @@ defaultContentLanguageInSubdir = false
   # TODO: Why isn't this profile pic showing up on netlify?
   avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "peter.hickey@gmail.com"
-  address = "Johns Hopkins Bloomberg School of Public Health, 615 North Wolfe Street, Baltimore, MD, 21202, USA"
+  address = "Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, Vic, 3052, Australia"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
   #skype = "echo123"
