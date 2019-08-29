@@ -68,7 +68,7 @@ including the  [`tidyr`](https://github.com/hadley/tidyr),
 Hadley is writing an incredibly helpful book on Advanced R Programming that can 
 currently be [accessed for __free__](http://adv-r.had.co.nz/)
 
-{{< tweet 487051081373868033 >}}
+<!-- TODO: Uncomment when fixed {{< tweet 487051081373868033 >}} -->
 
 ## What makes me excited about statistics?
 
@@ -105,6 +105,6 @@ All this leads me to conclude that what excites me about statistics is simply
 data science. [Jan de Leeuw](http://gifi.stat.ucla.edu/)'s tweeted sentiments 
 do well to capture my current feelings:
 
-{{< tweet 487127310923862017 >}}
+<!-- TODO: Uncomment when fixed {{< tweet 487127310923862017 >}} -->
 
-{{< tweet 488835963297087488 >}}
+<!-- TODO: Uncomment when fixed {{< tweet 488835963297087488 >}} -->
