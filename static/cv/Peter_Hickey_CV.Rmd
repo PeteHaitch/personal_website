@@ -59,9 +59,10 @@ editor_options:
 
 ```{r bib, echo = FALSE, message = FALSE, results = "hide"}
 library(RefManageR)
+library(here)
 BibOptions(max.names = Inf)
 
-bib <- ReadBib("../bib/Peter_Hickey.bib")
+bib <- ReadBib(here("static/bib/Peter_Hickey.bib"))
 
 myPrint <- function(bib, no.print = NULL) {
   if (length(bib) && length(no.print)) {
@@ -110,7 +111,12 @@ myPrint(bib[bibtypes == "Article"], no.print = "language")
 ## Preprints and under review
 
 ```{r preprints, results = "asis", echo = FALSE}
-myPrint(bib[bibtypes == "Unpublished"], no.print = "language")
+# NOTE: I don't know what became of Brown2017 after submission (and
+#       presumably rejection) in 2016.
+dont_print <- match("Brown2017", names(bib))
+myPrint(
+  bib[-dont_print][bibtypes[-dont_print] == "Unpublished"],
+  no.print = "language")
 ```
 
 ## Theses
@@ -153,7 +159,7 @@ project. Also developed and published Python software. Additional projects are
 available from [https://github.com/PeteHaitch](https://github.com/PeteHaitch).
 
 ```{r pkg_stats, echo = FALSE, warning = FALSE}
-years <- seq(2014, 2017)
+years <- seq(2014, 2019)
 names(years) <- years
 pkgs <- c("GenomicTuples", "bsseq", "minfi", "DelayedMatrixStats")
 names(pkgs) <- pkgs
@@ -196,16 +202,16 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 ### Author
 
 - [GenomicTuples](https://bioconductor.org/packages/GenomicTuples/): Representation and Manipulation of Genomic Tuples
-    - Number of downloads (2014-2017): `r n_downloads[, "GenomicTuples"]`
+    - Number of downloads (2014-2019): `r na.omit(n_downloads[, "GenomicTuples"])`
 - [bsseq](https://bioconductor.org/packages/bsseq/): Analyse, Manage and Store Bisulfite Sequencing Data
-    - Number of downloads (2014-2017): `r n_downloads[, "bsseq"]`
+    - Number of downloads (2014-2019): `r na.omit(n_downloads[, "bsseq"])`
 - [DelayedMatrixStats](https://bioconductor.org/packages/DelayedMatrixStats/): Functions that Apply to Rows and Columns of 'DelayedMatrix' Objects
-    - Number of downloads (2017): `r n_downloads["2017", "DelayedMatrixStats"]`
+    - Number of downloads (2017-2019): `r na.omit(n_downloads[, "DelayedMatrixStats"])`
 
 ### Contributor
 
 - [minfi](https://bioconductor.org/packages/release/bioc/html/minfi.html): Analysing Illumina Infinium DNA Methylation Arrays
-    - Number of downloads (2017): `r n_downloads["2017", "minfi"]`
+    - Number of downloads (2017-2019): `r na.omit(n_downloads[c("2017", "2018", "2019"), "minfi"])`
 
 ## Python packages
 
@@ -221,8 +227,12 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 
 ## Awards
 
+- *2019*: Bioconductor Travel Award
+    - To attend the Bioconductor meeting in New York, USA
+- *2018*: AGTA Travel Award
+    - To attend the AGTA meeting in Adelaide, Australia
 - *2018*: Bioconductor Travel Award
-    - To attend the Bioconductor meeting in Seattle, USA
+    - To attend the Bioconductor meeting in Toronto, Canada
 - *2015*: Bioconductor Travel Award
     - To attend the Bioconductor meeting in Seattle, USA
 - *2015*: Edith Moffat Travel Award
@@ -239,7 +249,6 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 - *2009*: Maurice Belz scholarship, The University of Melbourne
     - A competitive scholarship awarded to complete Honours degree in statistics, stochastic processes or operations research
 - *2009*: Alan W Harris Honours scholarship, The Walter and Eliza Hall Institute of Medical Research
-
 
 ## Grants 
 
@@ -258,8 +267,11 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 
 ### Conferences
 
-- *2018* [**Lessons from switching to on-disk storage using DelayedArray containers.**](https://www.peterhickey.org/talk/2018-07-25-bioc2018/) Contributed talk, BioC 2018 Developers’ Day, Toronto, Canada (25/7)
-- *2018* [**DelayedArray: A tibble for arrays.**](https://www.peterhickey.org/talk/2018-07-13-user2018/) Contributed talk, useR! 2018, Brisbane, Australia (13/07)
+- *2019*: [**Overview of single-cell bioinformatics**](https://docs.google.com/presentation/d/1GPBUXu-nlbQ5jo0hrbQPoJm4x6mjz_9xTWck9dT4j00/edit?usp=sharing). Oz Single Cell 2019, Melbourne, Australia (21/7)
+- *2018*: [**Getting help and helping others (including future you)**](www.peterhickey.org/slides/2018/getting_help_BioCAsia_2018.pptx). BioCAsia 2018, Mebourne, Australia (29/11)
+- *2018*: **Genome-wide analysis of DNA methylation in samples from the Genotype-Tissue Expression (GTEx) project**. AGTA 2018, Adelaide, Australia (05/11)
+- *2018*: [**Lessons from switching to on-disk storage using DelayedArray containers.**](https://www.peterhickey.org/talk/2018-07-25-bioc2018/) Contributed talk, BioC 2018 Developers’ Day, Toronto, Canada (25/7)
+- *2018*: [**DelayedArray: A tibble for arrays.**](https://www.peterhickey.org/talk/2018-07-13-user2018/) Contributed talk, useR! 2018, Brisbane, Australia (13/07)
 - *2017*: **Mapping the human brain epigenome and its links to disease.** Contributed talk, Epigenetics 2017, Brisbane, Australia (31/10)
 - *2017*: **Neuronal brain region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric disease heritability.**. Contributed talk, GTEx Project Community Meeting, Rockville, USA (28/06)
 - *2017*: **Developing statistical methods for large epigenomic studies in the human brain**. Contributed talk, ENAR 2017 Spring Meeting, Washington D.C., USA (13/03)
@@ -279,8 +291,10 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 - *2013*: **Bioinformatics for bisulfite sequencing**. Invited talk, La Trobe University Sequencing Users Group, Melbourne, Australia (28/08)
 - *2010*: **X chromosome association testing in genome wide association studies**. Invited talk, Statistical Society of Australia - Victorian branch meeting, Melbourne, Australia (24/08)
 
-## Posters 
+## Posters
 
+- *2019*: **Genome-wide analysis of DNA methylation in samples from the Genotype-Tissue Expression (GTEx) project**. Poster, Lorne Genome, Lorne, Australia (17/02)
+- *2018*: **Developing 'standard' bioinformatics analyses for the Single Cell Open Research Endeavour (SCORE)**. Poster, ABACBS, Mebourne, Australia (27/11)
 - *2014*: [**Simulating whole-genome bisulfite-sequencing data**](https://figshare.com/articles/Simulating_whole_genome_bisulfite_sequencing_data/834976). Poster, Lorne Genome, Lorne, Australia (17/01)
 - *2013*: [**Simulating whole-genome bisulfite-sequencing data**](https://figshare.com/articles/Simulating_whole_genome_bisulfite_sequencing_data/834976). Poster, Epigenetics 2013, Shoal Bay, Australia (03/12)
 - *2011*: **Analysis of mouse exome sequencing: filtering institute specific single nucleotide variants (SNVs)**. Poster, GeneMappers - 8th Australian Human Gene Mapping Conference, Hobart, Australia (04/04)
@@ -292,7 +306,12 @@ author/contributor to the package (data from [https://bioconductor.org/packages/
 
 ## Workshops
 
-- *2018:* [**Effectively using the DelayedArray framework to support the analysis of large datasets**](https://bioconductor.github.io/BiocWorkshops/effectively-using-the-delayedarray-framework-to-support-the-analysis-of-large-datasets.html). BioC 2018, Toronto, Canada (25/7)
+- *2019*: **Hands on workshop on downstream analysisof 10X data**]. BioC 2019, New York, USA (25/6) Oz Single Cell 2019, Melbourne, Australia (21/7)
+- *2019*: [**Effectively using the DelayedArray framework to support the analysis of large datasets**](http://biocworkshops2019.bioconductor.org.s3-website-us-east-1.amazonaws.com/page/DelayedArrayWorkshop__Effectively_using_the_DelayedArray_framework_for_users/). BioC 2019, New York, USA (25/6)
+- *2019*: [**Data Organisation: Making Your Research Life Easier**](https://docs.google.com/presentation/d/1lb1Q2R_GYkEqvslz6k2sdfbC-vXxcPgaMqrv8H0IyDg/edit?usp=sharing). Australian Catholic University, Melbourne, Australia (02/07)
+- *2018*: **Analyzing 10X Chromium single-cell RNA-seq**. University of Melbourne, Melbourne, Australia (06/06)
+- *2018*: **Analyzing 10X Chromium single-cell RNA-seq**. Nanjing University, Nanjing, China (11/12)
+- *2018*: [**Effectively using the DelayedArray framework to support the analysis of large datasets**](https://bioconductor.github.io/BiocWorkshops/effectively-using-the-delayedarray-framework-to-support-the-analysis-of-large-datasets.html). BioC 2018, Toronto, Canada (25/7)
 - *2016*: [**Analysing DNA methylation data with Bioconductor**](https://htmlpreview.github.io/?https://github.com/hansenlab/tutorial.450k/blob/master/inst/doc/methylation450k.html). BioC 2016, Palo Alto, USA (26/06)
 
 ## Tutoring
@@ -311,7 +330,6 @@ Referee for *Nature Methods*, *PLoS Genetics*, *Genome Biology*, *Bioinformatics
 ## Professional society memberships
 
 - Member, Statistical Society of Australia
-- Member, International Biometric Society (ENAR)
 - Member, Australasian Genomic Technologies Association 
 
 # References
