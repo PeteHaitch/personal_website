@@ -37,7 +37,7 @@
 \newcommand{\getenv}[2][]{%
   \CatchFileEdef{\temp}{"|kpsewhich --var-value #2"}{}%
   \if\relax\detokenize{#1}\relax\temp\else\let#1\temp\fi}
-% \getenv[\INTERNALUSE]{INTERNALUSE}
+\getenv[\INTERNALUSE]{INTERNALUSE}
 \usepackage{changepage}
 \newenvironment{myannotate}{\vspace{-\parskip}\begin{adjustwidth}{1cm}{}}{\end{adjustwidth}}
 \usepackage{ifthen}
@@ -120,15 +120,6 @@
   \>\> Advisor: {\bf Kasper D.\ Hansen}
 \end{tabbing}
 
-% \subsection*{Visiting}
-%
-% \begin{tabbing}
-%   \=2018\hspace*{1.5cm} \= Departments of Statistics and Biology\\
-%   \>\>University of Copenhagen\\
-%   \>2004--2005  \>Department of Biostatistics\\
-%   \>\>University of California, Berkeley
-% \end{tabbing}
-
 \section*{PROFESSIONAL EXPERIENCE}
 
 \begin{tabbing}
@@ -154,18 +145,13 @@
 
 % \subsection*{Project Development}
 
+% TODO: Could I put down BioC Asia?
+
 % \begin{tabbing}
 %   \= 2012--Present \hspace*{0.5cm} \= Member of the Bioconductor Technical Advisory Board.
 % \end{tabbing}
 
 \section*{EDITORIAL ACTIVITIES}
-
-% \subsection*{Editorial Board Membership}
-%
-% \begin{tabbing}
-%   \=Gateway advisor for the \href{http://f1000research.com/channels/bioconductor}{Bioconductor Gateway}
-%   at F1000Research.
-% \end{tabbing}
 
 \subsection*{Served as \textit{referee} for}
 
@@ -181,14 +167,9 @@
   \>PLoS Genetics\\
 \end{tabbing}
 
-% \subsection*{Review of Proposals}
-%
-% \begin{tabbing}
-%   \=Joint NIH and NSF BIGDATA initiative review panel (2012)\\
-%   \>Israeli Science Foundation (2019)
-% \end{tabbing}
-
 \section*{HONORS AND AWARDS}
+
+% TODO: Go through and identify others
 
 \begin{tabbing}
   \= 2019 \hspace*{0.5cm} \= Bioconductor Travel Award (To present at the Bioconductor meeting in New York, USA)\\
@@ -201,13 +182,6 @@
   \> 2007 \> Third prize at the Computational and Genomic Biology student retreat \\
   \>\>poster competition \\
 \end{tabbing}
-
-% Significant awards to trainees:
-% \begin{tabbing}
-%   \= 2014 \hspace*{0.5cm} \= Jean-Philippe Fortin: \\
-%   \>\> John van Ryzin award for best student paper submitted to ENAR.
-% \end{tabbing}
-
 
 \section*{PUBLICATIONS}
 
@@ -224,7 +198,7 @@
 
 \printbibliography[title=Preprints (not peer reviewed),keyword=preprint,prenote=mynote]
 
-\printbibliography[title={Books, Theses, Editorials, Abandoned Preprints (not peer reviewed)},keyword=others,prenote=mynote]
+\printbibliography[title={Theses, Editorials},keyword=others,prenote=mynote]
 
 \printbibliography[title={Preprints, subsequently published (not peer reviewed)},keyword=pubpreprint,prenote=mynote]
 
@@ -240,6 +214,8 @@ Europe PMC Citations: \href{https://europepmc.org/authors/0000-0002-8153-6258}{p
 
 \subsection*{Software - Bioconductor Project}
 
+% TODO: Go through and identify others
+
 \begin{enumerate}[labelindent=1cm,align=left]
   \item[\href{http://www.bioconductor.org/packages/bsseq}{bsseq}]
     Analyze, Manage and Store Bisulfite Sequencing Data.
@@ -253,11 +229,15 @@ Europe PMC Citations: \href{https://europepmc.org/authors/0000-0002-8153-6258}{p
 
 \subsection*{Software - Other}
 
+% TODO: Go through and identify others
+
 \begin{enumerate}[labelindent=1cm,align=left]
   \item[\href{https://pypi.python.org/pypi/methtuple/}{methtuple}] A caller for DNA methylation events that co-occur on the same DNA fragment from high-throughput bisulfite sequencing data, such as whole-genome bisulfite-sequencing.
 \end{enumerate}
 
-% \ifthenelse{\equal{\INTERNALUSE}{TRUE }}{
+% TODO: Add references? Check advice and whether application requests them.
+
+\ifthenelse{\equal{\INTERNALUSE}{TRUE }}{
 
 \newpage
 
@@ -268,7 +248,6 @@ Part II
 \end{center}
 
 \bigskip
-
 
 \subsection*{TEACHING}
 
@@ -292,39 +271,22 @@ Part II
   \>Megan Iminitoff, Epigenetics and Development Division, 2019--present.\\
 \end{tabbing}
 
+% TODO: Add supervision of William.
+
 \subsection*{Classroom Instruction - Invited Guest Lecturer}
 
 % TODO: Add Hopkins lecturing
+% TODO: Go through and identify others
 \begin{tabbing}
   \=Introduction to Single-Cell 'Omics: University of Melbourne, 2019.
 \end{tabbing}
 
-% \subsection*{Instruction - Special Studies}
-%
-% \begin{tabbing}
-%   \=Erjia Cua, Biostatistics, SPH, 2018.\\
-%   \>Albert Kuo, Biostatistics, SPH, 2018.\\
-%   \>Jacob Fiskel, Biostatistics, SPH, 2015.\\
-%   \>Leslie Myint, Biostatistics, SPH, 2013--2014.\\
-%   \>Dan Jiang, Biostatistics, SPH, 2013.\\
-% \end{tabbing}
 
 % \subsection*{Other significant teaching - Massive Open Online Courses (MOOCs)}
 
-% \begin{tabbing}
-%   \= Co-directory of the
-%   \href{https://www.coursera.org/specializations/genomics}{Genomic Data Science Specialization}
-%   hosted on Coursera.\\
-%   \> \hspace*{2mm} This is a series of 7 month-long courses. Each course is offered every month.
-% \end{tabbing}
-%
-% \begin{tabbing}
-%   \= Developed and taught month-long MOOC, offered monthly from Sept.\ 2015, titled \\
-%   \> \hspace*{2mm} \href{https://www.coursera.org/course/genbioconductor}{Bioconductor for Genomic
-%     Data Science}. Part of the Genomic Data Science Specialization.
-% \end{tabbing}
-
 \subsection*{Other significant teaching - Workshops and Short Courses}
+
+% TODO: Go through and identify talks
 
 % \teach{Statistical Methods for Next Generation Sequencing}{%
 %   2012}{ENAR Washington, D.C.} % half day
@@ -355,266 +317,26 @@ Part II
 
 % \section*{RESEARCH GRANT PARTICIPATION}
 
-% Cancer Genomics: Integrative and scalable solutions in R/Bioconductor.\\
-% NIH U24 CA180996-01A1\\
-% Principal Investigator: Martin T.\ Morgan.\\
-% Aug 2015--2019. Direct Costs: 540,000 per year.\\
-% Responsibility: Co-investigator (15\%).
-
-% Statistical methods for analysis of metabolomics data generated from a LC-MS instrument\\
-% JHU Faculty Innovation.\\
-% Principal Investigator: Kasper Daniel Hansen.\\
-% May 2014--May 2015, Direct costs: \$30,000.\\
-% Responsibility: Principal Investigator (20\%)
-
-% Strategic mapping of tissue and population methylation for mental health research\\
-% NIH U01 MH104393-01\\
-% Principal Investigator: Andrew P.\ Feinberg.\\
-% 3 years, ending 2016. Direct costs: \$2,072,969.\\
-% Responsibility: Co-investigator (10\%)
-
 % \subsection*{Ongoing}
 
-% \grant{356-01 }%
-% {Hansen}%
-% {07/01/19-06/30/22}%
-% {CZI}%
-% {Bioconductor for Analysis and Comprehension of the Human Cell Atlas}%
-% {We will develop tools for analysis of single-cell data in Bioconductor}
-% {Role: PI on subaward}
-%
-% \grant{R01GM12145}%
-% {Hansen}%
-% {08/01/17-7/31/22}%
-% {NIH}%
-% {Analysis of genomics datasets at a massive scale}%
-% {We will collect and analyze all publicly available RNA-seq data in humans.}%
-% {Role: PI}
-%
-% \grant{U01ES026721}%
-% {Biswal}%
-% {06/01/16-04/30/20}%
-% {NIH/NIEHS}%
-% {Epigenomics of Air Pollution driven Inflammation, Obesity, and Insulin Resistance}%
-% {This proposal studies the molecular effects of air pollution in a mouse model.}%
-% {Role: Co-Investigator}
-%
-% \grant{RM1HG008529}%
-% {Feinberg}%
-% {09/28/16-31/08/21}%
-% {NIH/NHGRI}%
-% {Integration of genomics and the environment}%
-% {This proposal studies the effect of lead exposure in mouse model.}%
-% {Role: Co-Investigator}
-%
-% \grant{R01GM118568}%
-% {Langmead}%
-% {04/01/16-03/31/21}%
-% {NIH/NIGMS}%
-% {Hardening and scaling core genomics software}%
-% {This proposal develops short read alignment tools}%
-% {Role: Co-Investigator}
-%
-% \grant{90073300}%
-% {Fahrner}%
-% {06/01/18-03/31/20}%
-% {The Hartwell Foundation}%
-% {Altering Epigenetics to Treat Growth Abnormalities in Children}%
-% {Growth and neurologic development are the most fundamental aspects of child health. Both are
-% disrupted in thousands of individually rare but collectively common genetic disorders affecting the
-% pediatric population. These include Epigenetic Machinery Disorders, which we propose to treat. The
-% ultimate goal, and what makes this particularly innovative, is our plan to quantify and
-% titrate the biomarker in order to restore precise gene expression and normalize growth.}%
-% {Role: Co-Investigator}
-%
-% \grant{U24HG10263}%
-% {Taylor}%
-% {09/21/18-06/30/23}%
-% {NIH/NIGRI}%
-% {Implementing the Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL)}%
-% {The goal of this project is to create a cloud-based computational analysis and visualization workspace for genomic research. The research enabled by this workspace will accelerate our understanding of the genetic components of human health and disease and progress towards precision genomic medicine.}%
-% {Role: Co-Investigator}
-%
-% \grant{90082615}%
-% {Guallar / Shafi}%
-% {08/22/18-06/30/23}%
-% {NIH}%
-% {Metabolomics of Uremic Symptoms in Dialysis Patients}%
-% {Dr. Hansen will direct the development and application of all methods and analysis described in this proposal. He will be actively involved in the data analysis, methods development and code development performed as part of this project.}%
-% {Role: Co-Investigator}
-%
-% \grant{U01AG060908}%
-% {Horvath}%
-% {10/01/18-09/30/23}%
-% {NIH}%
-% {Validation and optimization of epigenetic clocks}%
-% {Contribute to the assessment and computational correction for technical variability and consult on all aspects of the proposal involving analysis of the Illumina methylation array platforms as well as other methylation platforms, and will be involved in computational methods development for these platforms.}%
-% {Role: PI of subaward}
-%
-%
-% \grant{P30AG021334}%
-% {Walston / Bandeen Roche}%
-% {07/01/13 – 06/30/23}%
-% {NIH/NIA}%
-% {Older Americans Independence Center}%
-% {The Center is dedicated to research to determine the causes and treatments for frailty in older adults.}%
-% {Role: Co-Investigator}
-%
-% \grant{R01GM129085}%
-% {Florea}%
-% {07/01/19 – 06/30/23}%
-% {NIH}%
-% {Computational Methods to Characterize Alternative Splicing from Massive Collections of RNA-seq Data}%
-% {The project will design a suite of innovative tools that criss-cross information across multiple RNA-seq samples, and across heterogeneous sequence, epigenetic and expression data, to more comprehensively and more accurately determine the structure, function and regulation of alternative splicing in human biology and disease.}%
-% {Role: Co-Investigator}
-
-
 % \subsection*{Completed}
-%
-% \grant{2018-183446}%
-% {Hansen}%
-% {03/01/18-02/29/19}%
-% {CZI}%
-% {Statistical Analysis and Comprehension of the
-% Human Cell Atlas in R / Bioconductor: Access and
-% Scalable Infrastructure}%
-% {We will develop tools for analysis of single-cell data in Bioconductor}
-% {Role: PI}
-%
-% \grant{R01GM105705}%
-% {Leek}%
-% {09/01/13-04/30/18}%
-% {NIH/NIGMS}%
-% {Statistical Models for Biological and Technical Variation in RNA Sequencing}%
-% {This project proposes to develop statistical methods and software for analyzing these data, accounting for biological and technological errors.}%
-% {Role: Co-Investigator}
-%
-% \grant{U24CA180996}%
-% {Hansen}%
-% {09/01/14-08/31/19}%
-% {NIH/NCI}%
-% {Cancer Genomics: Integrative and Scalable Solutions in R / Bioconductor}%
-% {This proposal develops scalable R/Bioconductor infrastructure and data resources to integrate
-%   complex, heterogeneous, and large cancer genomic experiments. This includes the development of
-%   multi-assay data containers, interfaces to publicly available cancer genomic data and scalable
-%   software approaches.}%
-% {Role: Principal Investigator on subcontract to JHU}%
-%
-% \grant{U01MH104393}%
-% {Feinberg}%
-% {04/15/14-03/31/17}%
-% {NIH / Common Fund}%
-% {Strategic Mapping of Tissue and Population Methylation for Mental Health Research}%
-% {Here we propose to provide a resource for the community using GTEx samples and taking full advantage of our methodological expertise and pipeline. Our primary focus will be on discovering t-DMRs and VMRs in mental health relevant brain samples, using a large number of samples from these regions}%
-% {Role: Co-Investigator}
-%
-% \grant{Discovery}%
-% {Hansen/Bjornsson}%
-% {08/01/16-07/31/17}%
-% {JHU}%
-% {Leveraging Mendelian disorders to map functionally relevant epigenetic variation}%
-% {We will study Mendelian disorders of the epigenetic machinery to understand aberrant variant in the
-%   epigenome. This will be done using epigenomics in mouse models of 3 different disorders.}%
-% {Role: Joint PI}
-%
-% \grant{R25EB020378}%
-% {Caffo}%
-% {09//29/14-05/31/17}%
-% {NIH}%
-% {Big Data Education for the Masses: MOOCs, Modules and Intelligent Tutoring Systems}%
-% {We propose two Massive Open Online Course series in neuroimaging and genomic Big Data analysis as well as the creation of modular Big Data statistics content and content creation for an intelligent tutoring system.}%
-% {Role: Co-Investigator}
-%
-%
-% \grant{P50HG003233}%
-% {Feinberg}%
-% {05/01/09-04/30/16}%
-% {NIH/NHGRI}%
-% {Center for the Epigenetics of Common Human Disease}%
-% {The goals of this project are to develop high throughput tools for epigenome analysis; to develop the novel field of quantitative epigenetics; and to develop methods to apply these epigenetic tools to psychiatric disease.}%
-% {Role: Co-Investigator}
-%
-% \grant{2R01CA054358-20A1}%
-% {Feinberg}%
-% {08/15/13-06/30/18}%
-% {NIH/NCI}%
-% {Epigenetic Drivers of Cancer Progression}%
-% {The major goals of this project are to determine the extent to which classes of altered DNA methylation correspond to clonal evolution in human cancer, using pancreatic cancer as a model, to investigate the relationship between chromatin and DNA methylation during progression, and to perform functional analysis of epigenetic targets and mediators.}%
-% {Role: Co-Investigator}
-%
-% \grant{R01AG042187}%
-% {Feinberg}%
-% {07/15/13-05/31/16}%
-% {NIH/NIA}%
-% {The Role and Genetic Mechanism of Epigenetic Plasticity in Age-Related Disease}%
-% {The major goal of this project is to identify age-specific methylation variation associated with age-related phenotypes such as strength and metabolic rate, and determine their relationship to underlying DNA sequence, using 2000 participants in the Baltimore Longitudinal Study of Aging (BLSA).}%
-% {Role: Co-Investigator}
-%
-% \grant{Faculty Innovator}{Hansen}{5/1/2014-5/1/2015}{JHSPH}%
-% {Statistical methods for analysis of metabolomics data generated from a LC-MS instrument}%
-% {Major goal of this project is to investigate the potential new statistical methods for metabolomics data.}
-% {Role: Principal Investigator}
-%
-% \grant{90052799}%
-% {Wang}%
-% {11/1/12-10/31/14}%
-% {Food Allergy Research \& Education, Inc.}%
-% {Data Administration and Analysis Core}%
-% {The central focus of this study is to conduct research and publish manuscripts on food allergy using data obtained from the Children’s Memorial Hospital Food Allergy Study.}%
-% {Role: Co-Investigator}
-%
-% \grant{SR00001765}%
-% {Feinberg}%
-% {07/01/11-06/30/14}%
-% {UOMB}%
-% {NHLBI Progenitor Cell Biology Consortium}%
-% {The Aim of this Ancillary Project is to identify epigenomic differences in human hematopoietic stem and progenitor populations using comprehensive DNA methylation mapping methods at Johns Hopkins, and to relate such changes to differences in gene expression and cellular function on the same cell populations studied at Stanford. We will prospectively isolate human HSPC populations from normal bone marrow, including HSC, MPP, L-MPP, CLP, CMP, GMP, and MEP, and subject them to a rigorous analysis of differential epigenetic modifications and gene expression. We will use two analytical approaches, CHARM and whole-genome bisulfite sequencing. These data will be integrated with RNA expression data on the same samples, using regression models in an annotation-agnostic manner. Finally, we will provide all of these data to the PCBC with a powerful graphical user interface, making it a key resource for the Consortium as a whole. }%
-% {Role: Co-Investigator}
-%
-% \grant{R01HG005220}%
-% {Irizarry}%
-% {08/11/10-05/31/13}%
-% {NIH/NHGRI}%
-% {Analysis Tools and Software for Second Generation Sequencing Data}%
-% {The goal of this project is to create a sound and unified statistical and computational methodology
-%   for representing and managing uncertainty through the sec-gen sequencing data analysis pipeline
-%   built on a robust, modular and extensible software platform.}%
-% {Role: Co-Investigator}%
-%
-% \grant{2R01RR021967}%
-% {Irizarry}%
-% {09/15/11-07/31/13}%
-% {NIH/NCRR}%
-% {Software for the statistical analysis of microarray probe level data}%
-% {The goal of this project is to continue the support of our software and further develop our tools to increase their usefulness to the research community.}%
-% {Role: Co-Investigator}%
 
 % \section*{ACADEMIC SERVICE}
-%
-% \subsection*{Institute of Genetic Medicine}
-%
-% \begin{tabbing}
-%   \= Member, Joint High Performance Computing Exchange Oversight Committee (2012 -- present).\\
-%   \> Responsible for installing and maintaining R and various bioinformatics tools on JHPCE.
-% \end{tabbing}
-%
-% \subsection*{Department of Biostatistics}
-%
-% \begin{tabbing}
-%   \= Faculty search committee, 2015-2016 \\
-%   \> Responsible for Departmental Seminars, Fall 2016.
-% \end{tabbing}
 
 \section*{PRESENTATIONS}
 
-% \ifthenelse{\equal{\INTERNALUSE}{TRUE }}{
+% TODO: Go through and identify others
+
 \subsection*{Upcoming}
+% TODO: Remove this subsection if not using
 
 \mycon{0.3em}
 \talk{empty}{}{}{}
 \ee
 
 \subsection*{Invited Talks (Seminars and Scientific Meetings)}
+
+% TODO: Go through and identify others
 
 % \mycon{0.3em}
 
@@ -730,18 +452,12 @@ Part II
 
 % \ee
 
-% \subsection*{Scientific Meetings (presented by trainees)}
-%
-% I sometimes pass speaking opportunities to my trainees.
-%
-% \mycon{0.3em}
-%
-% \talk{Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data (presented by Jean-Philippe Fortin)}{2015}{3rd Annual Infinium HumanMethylation450 Array Workshop}{London, UK}
-
 % \ee
 
 
 \subsection*{Scientific Meetings (Contributions)}
+
+% TODO: Go through and identify others
 
 % \mycon{0.3em}
 
@@ -766,6 +482,8 @@ Part II
 % \ee
 
 \subsection*{Posters}
+
+% TODO: Go through and identify others
 
 % \mycon{0.3em}
 
@@ -800,7 +518,7 @@ Part II
 
 % \ee
 
-% }{}
+}{}
 % END IF THEN
 
 \end{document}
