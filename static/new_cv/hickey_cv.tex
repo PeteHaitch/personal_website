@@ -89,6 +89,9 @@
 
 \section*{PERSONAL DATA}
 
+% TODO: Add phone?
+% TOOD: Update address?
+
 \begin{tabbing}
   \= Web Page:\hspace*{2cm}
   \=\href{http://www.peterhickey.org}{http://www.peterhickey.org} \\
@@ -115,7 +118,7 @@
 \subsection*{Postdoctoral Training}
 
 \begin{tabbing}
-  \= 2016--2018 \hspace*{0.5cm} \= Department of Biostatistics \\
+  \= 2016--2018 \hspace*{0.55cm} \= Department of Biostatistics \\
   \>\> Johns Hopkins Bloomberg School of Public Health\\
   \>\> Advisor: {\bf Kasper D.\ Hansen}
 \end{tabbing}
@@ -123,7 +126,7 @@
 \section*{PROFESSIONAL EXPERIENCE}
 
 \begin{tabbing}
-  \= 2018--Present \= Senior Research Officer\\
+  \= 2018--Present \hspace*{0.1cm} \= Senior Research Officer\\
   \>\>Advanced Technology and Biology\\
   \>\>Walter and Eliza Hall Institute of Medical Research\\
   \> 2016--2018 \> Postdoctoral Fellow\\
@@ -172,16 +175,16 @@
 % TODO: Go through and identify others
 
 \begin{tabbing}
-  \= 2019 \hspace*{0.5cm} \= Bioconductor Travel Award (To present at the Bioconductor meeting in New York, USA)\\
-  \= 2018 \hspace*{0.5cm} \= AGTA Travel Award (To present at the AGTA meeting in Adelaide, Australia)\\
-  \= 2018 \hspace*{0.5cm} \= Bioconductor Travel Award (To present at the Bioconductor meeting in Toronto, Canada)\\
-  \= 2015 \hspace*{0.5cm} \= Bioconductor Travel Award (To present at the Bioconductor meeting in Seattle, USA)\\
-  \= 2015 \hspace*{0.5cm} \= Edith Moffat Travel Award (To interview for international for postdoctoral positions and present the European Bioconductor meeting)\\
-  \= 2013 \hspace*{0.5cm} \= Prize for best lightning talk at the Australian Epigenetics Conference\\
-  \= 2013 \hspace*{0.5cm} \= Third prize for best lightning talk at the Young Statisticians Conference\\
-  \> 2007 \> Third prize at the Computational and Genomic Biology student retreat \\
-  \>\>poster competition \\
+  \= 2019 \hspace*{0.5cm} \= Bioconductor Travel Award (To present at BioC in New York, USA)\\
+  \= 2018 \> AGTA Travel Award (To present at the AGTA meeting in Adelaide, Australia)\\
+  \= 2018 \> Bioconductor Travel Award (To present at BioC in Toronto, Canada)\\
+  \= 2015 \> Bioconductor Travel Award (To present at BioC in Seattle, USA)\\
+  \= 2015 \> Edith Moffat Travel Award (To interview for international for postdoctoral positions and present the European Bioconductor meeting)\\
+  \= 2013 \> Prize for best lightning talk at the Australian Epigenetics Conference\\
+  \= 2013 \> Third prize for best lightning talk at the Young Statisticians Conference
 \end{tabbing}
+
+% TODO: Consider new page
 
 \section*{PUBLICATIONS}
 
@@ -196,11 +199,18 @@
 
 \printbibliography[title={Journal Articles, Consortia member (peer reviewed)},keyword=peerconsortia]
 
+% TODO: Should the mynot appear again?
+
 \printbibliography[title=Preprints (not peer reviewed),keyword=preprint,prenote=mynote]
+
+% TODO: Should the mynot appear again?
 
 \printbibliography[title={Theses, Editorials},keyword=others,prenote=mynote]
 
-\printbibliography[title={Preprints, subsequently published (not peer reviewed)},keyword=pubpreprint,prenote=mynote]
+% TODO: Should the mynot appear again?
+
+% TODO: Add these?
+% \printbibliography[title={Preprints, subsequently published (not peer reviewed)},keyword=pubpreprint,prenote=mynote]
 
 \subsection*{Citation databases}
 
@@ -234,8 +244,6 @@ Europe PMC Citations: \href{https://europepmc.org/authors/0000-0002-8153-6258}{p
 \begin{enumerate}[labelindent=1cm,align=left]
   \item[\href{https://pypi.python.org/pypi/methtuple/}{methtuple}] A caller for DNA methylation events that co-occur on the same DNA fragment from high-throughput bisulfite sequencing data, such as whole-genome bisulfite-sequencing.
 \end{enumerate}
-
-% TODO: Add references? Check advice and whether application requests them.
 
 \ifthenelse{\equal{\INTERNALUSE}{TRUE }}{
 
@@ -275,45 +283,30 @@ Part II
 
 \subsection*{Classroom Instruction - Invited Guest Lecturer}
 
-% TODO: Add Hopkins lecturing
 % TODO: Go through and identify others
 \begin{tabbing}
-  \=Introduction to Single-Cell 'Omics: University of Melbourne, 2019.
+  \=Introduction to Single-Cell 'Omics: University of Melbourne, 2019.\\
+  \>Analysis of ATAC-seq data: Johns Hopkins University, 2017.
 \end{tabbing}
-
-
-% \subsection*{Other significant teaching - Massive Open Online Courses (MOOCs)}
 
 \subsection*{Other significant teaching - Workshops and Short Courses}
 
-% TODO: Go through and identify talks
+% TODO: Go through and identify others
+% TODO: Link to slides?
 
-% \teach{Statistical Methods for Next Generation Sequencing}{%
-%   2012}{ENAR Washington, D.C.} % half day
-%
-% \teach{Computational Statistics for Genome Biology}{%
-%   2011}{Brixen, Italy} % 5 days
-%
-% \teach{High throughput sequence analysis tools and approaches with Bioconductor}{%
-%   2009}{FHCRC, Seattle, USA}
-%
-% \teach{Statistical analysis of gene expression data with R and Bioconductor}{%
-%   2009}{University of Copenhagen, Denmark}
-%
-% \teach{R for (computational) biologists}{%
-%   2008}{University of California, Berkeley, USA}
-%
-% \teach{III International Course on Microarray Data Analysis}{%
-%   2007}{Valencia, Spain}
-%
-% \teach{Statistical Analysis of Microarray Expression Data with R and Bioconductor}{%
-%   2007}{University of Copenhagen, Denmark}
-%
-% \teach{I Course on Microarray Data Analysis}{%
-%   2005}{Valencia, Spain}
-%
-% \teach{Statistical Computing with R}{%
-%   2004}{University of Copenhagen}
+\teach{Hands on workshop on downstream analysis of 10X data}{2019}{Oz Single Cell 2019, Melbourne, Australia}
+
+\teach{Effectively using the DelayedArray framework to support the analysis of large datasets}{2019}{BioC, New York, USA}
+
+\teach{Data Organisation: Making Your Research Life Easier}{2019}{Australian Catholic University, Melbourne, Australia}
+
+\teach{Analyzing 10X Chromium single-cell RNA-seq}{2018}{University of Melbourne, Melbourne, Australia}
+
+\teach{Analyzing 10X Chromium single-cell RNA-seq}{2018}{Nanjing University, Nanjing, China}
+
+\teach{Effectively using the DelayedArray framework to support the analysis of large datasets}{2018}{BioC, Toronto, Canada}
+
+\teach{Analysing DNA methylation data with Bioconductor}{2016}{BioC, Palo Alto, USA}
 
 % \section*{RESEARCH GRANT PARTICIPATION}
 
@@ -327,196 +320,96 @@ Part II
 
 % TODO: Go through and identify others
 
-\subsection*{Upcoming}
-% TODO: Remove this subsection if not using
+% \subsection*{Upcoming}
 
-\mycon{0.3em}
-\talk{empty}{}{}{}
-\ee
+% \mycon{0.3em}
+% \talk{empty}{}{}{}
+% \ee
 
 \subsection*{Invited Talks (Seminars and Scientific Meetings)}
 
 % TODO: Go through and identify others
+% TODO: Link to slides?
+% TODO: Include additional info like date?
 
-% \mycon{0.3em}
+\mycon{0.3em}
 
-% \talk{Mean-correlation relationship biases co-expression analysis}{2019}{Dept.\ of Biostatistics, VCU}{Virginia, USA}
-%
-% \talk{Removing Unwanted Variation Reveals the Impact of Genetic Variation on 3D Genome Structure}{2019}{JSM}{Denver, CO}
-%
-% \talk{Using network analysis to illuminate neurological dysfunction}{2019}{Workshop on Statistical Challenges in Medical Data Science}{Ascona, Switzerland}
-%
-% \talk{Co-expression patterns define epigenetic regulators associated with neurological dysfunction}{2019}{Translational Psychiatry}{Park City, Utah}
-%
-% \talk{Co-expression patterns define epigenetic regulators associated with neurological dysfunction}{2018}{Statistical and Computational Challenges in High-Throughput Genomics with Application to Precision Medicine (BIRS workshop)}{Oxaca, Mexico}
-%
-% \talk{Analyzing bisulfite sequencing data from human brain regions}{2018}{Department of Biostatistics, University of Florida}{Florida, USA}
-%
-% \talk{Experiences with teaching Genomic Data Science online}{2018}{JSM}{Denver, CO}
-%
-% \talk{Removing unwanted variation between samples in Hi-C experiments.}{2018}{Dept.\ of Mathematical Sciences}{Copenhagen, Denmark}
-%
-% \talk{Co-expression networks are associated with the role of the epigenetic machinery in neurological dysfunction}{2018}{Statistics in Complex Systems}{Copenhagen, Denmark}
-%
-% \talk{The human epigenetic machinery is very intolerant to variation and highly co-expressed}{2017}{Bioc Europe}{Cambridge, UK}
-%
-% \talk{Analysis of epigenetic data with biological variation}{2017}{Mid-Atlantic Bioinformatics Conference}{ Philadelphia, USA}
-%
-% \talk{Brain region-specific DNA methylation and chromatin accessibility}{2017}{Statistical and Computational Challenges in Large Scale Molecular Biology at BIRS}{Banff, Canada}
-%
-% \talk{Preprocessing issues with epigenetic assays based on sequencing}{2016}{ICSA meeting}{Atlanta, USA}
-%
-% \talk{Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data}{2016}{NY Epigenomics Symposium}{NY, USA}
-%
-% \talk{Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data}{2016}{Planning meeting for the Gilgamesh network for aging research}{Santa Fe, USA}
-%
-% \talk{Lessons from GTEx}{2016}{Planning meeting for the Gilgamesh network for aging research}{Santa Fe, USA}
-%
-% \talk{Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data}{2015}{Statistical and Computational Challenges In Bridging Functional Genomics, Epigenomics, Molecular QTLs, and Disease Genetics workshop at BIRS}{Banff, Canada}
-%
-% \talk{DNA Methylation Platforms}{2015}{NIA}{Baltimore, USA}
-%
-% \talk{Lessons from Gene Expression}{2015}{Seminar on Computational Mass Spectrometry at Dagsthul}{Saarbrucken, Germany}
-%
-% \talk{Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data}{2015}{UCLA}{LA, USA}
-%
-% \talk{Some Methods and Results concerning DNA methylation}{2015}{JHU}{Baltimore, USA}
-%
-% \talk{Statistical analysis of epigenetic data}{2015}{Columbia University}{NY, USA}
-%
-% \talk{Statistical analysis of epigenetic data}{2014}{SAMSI}{North Carolina, USA}
-%
-% \talk{Statistical analysis of epigenomewide data}{2014}{WNAR}{Honolulu, Hawaii}
-%
-% \talk{Statistical analysis of epigenetic data}{2014}{Memorial Sloan-Kettering Cancer Center}{NY, USA}
-%
-% \talk{Statistical analysis of epigenomewide data}{2014}{NIA}{Baltimore, USA}
-%
-% \talk{Statistical analysis of epigenomewide data}{2014}{University of Pittsburgh and Carnegie-Mellon University}{Pittsburgh, USA}
-%
-% \talk{Analysis of whole-genome bisulfite sequencing data}{2013}{Johns Hopkins University (Baltimore, USA)}
-%
-% \talk{A genome-wide look at DNA methylation}{2013}{Statistical Data Integration Challenges in Computational Biology: Regulatory Networks and Personalized Medicine at BIRS}{Banff, Canada}
-%
-% \talk{A genome-wide look at DNA methylation}{2013}{BioC2013, Bioconductor Annual Meeting}{FHCRC, USA}
-%
-% \talk{The structure of epigenetic changes in cancer as revealed by whole-genome shotgun bisulfite
-%   sequencing}{2012}{New York University}{New York, USA}
-%
-% \talk{Epigenetic changes in cancer revealed by whole-genome shotgun bisulfite sequencing}{2012}{Dana-Farber Cancer Institute}{Boston, USA}
-%
-% \talk{Epigenetic changes in cancer revealed by whole-genome shotgun bisulfite sequencing}{2012}{University of Michigan}{Michigan, USA}
-%
-% \talk{Epigenetic changes in cancer revealed by whole-genome shotgun bisulfite sequencing}{2012}{Johns Hopkins University}{Baltimore, USA}
-%
-% \talk{The structure of epigenetic changes in cancer as revealed by whole-genome shotgun bisulfite
-%   sequencing}{2012}{Johns Hopkins University}{Baltimore, USA}
-%
-% \talk{Epigenetic changes in cancer revealed by whole-genome shotgun bisulfite sequencing}{2012}{University of British Columbia}{Vancouver, Canada}
-%
-% \talk{Analysis of whole-genome shotgun bisulfite sequencing data}{2012}{University of Pennsylvania}{Philadelphia, USA}
-%
-% \talk{Increased methylation variation across cancer types}{2012}{Cancer Research UK}{Cambridge, UK}
-%
-% \talk{Epigenetic changes in cancer revealed by whole-genome shotgun bisulfite sequencing}{2012}{European Bioinformatics Institute}{Hinxton, UK}
-%
-% \talk{The structure of epigenetic changes in cancer as revealed by whole-genome shotgun bisulfite sequencing}{2012}{Pacific Biosciences}{Menlo Park, USA}
-%
-% \talk{Analysis of shotgun bisulfite sequencing of cancer samples}{2011}{Dept.\ of Mathematical Sciences}{Copenhagen, Denmark}
-%
-% \talk{Analysis of shotgun bisulfite sequencing of cancer samples}{2011}{Statistical Analysis of Genomic Data}{CSHL, USA}
-%
-% \talk{Aspects of RNA-Seq data: computations, variance and bias}{2010}{DIMACS Workshop on Next Generation Sequencing at Rutgers}{New Jersey, USA}
-%
-% \talk{Biological variation in high-throughput RNA sequencing experiments}{2010}{Young Investigator Symposium at Johns Hopkins}{Baltimore, USA}
-%
-% \talk{The use of random priming induces global biases in Illumina transcriptome sequencing}{2010}{NIH}{Bethesda, USA}
-%
-% \talk{Biases and variation in RNA-Seq}{2010}{Statistical Genomics in Biomedical Research workshop at BIRS}{Banff, Canada}
-%
-% \talk{RNA-Seq: Sequencing the Transcriptome}{2009}{High throughput sequence analysis tools and approaches with Bioconductor}{FHCRC, USA}
-%
-% \talk{Biases in Illumina transcriptome sequencing caused by random hexamer priming}{2009}{Gene expression based on sequencing technologies workshop}{Copenhagen, Denmark}
-%
-% \talk{Biases in Illumina RNA-Seq due to random priming}{2009}{University of Chicago}{Chicago, USA}
-%
-% \talk{Biases in Illumina RNA-Seq}{2009}{Johns Hopkins University}{Baltimore, USA}
-%
-% \talk{RNA-Seq: Sequencing the transcriptome}{2008}{Using Bioconductor for ChIP-Seq experiments workshop}{FHCRC, USA}
-%
-% \talk{RNA-Seq: Sequencing the transcriptome}{2008}{Walter and Eliza Hall Institute of Medical Research (WEHI)}{Melbourne, Australia}
-%
-% \talk{Investigating RNA-Seq data}{2008}{Statistical and Computational Challenges in Next-Generation Sequencing workshop}{Berkeley, USA}
-%
-% \talk{Modeling splice-junction arrays}{2008}{JSM}{Colorado, USA}
+\talk{Overview of single-cell bioinformatics}{2019}{Oz Single Cell}{Melbourne, Australia}
 
-% \ee
+\talk{Bioinformatics for bisulfite sequencing}{2013}{La Trobe University}{Melbourne, Australia}
 
-% \ee
+\talk{X chromosome association testing in genome wide association studies}{2010}{Statistical Society of Australia - Victorian branch meeting}{Melbourne, Australia}
 
+\ee
 
 \subsection*{Scientific Meetings (Contributions)}
 
 % TODO: Go through and identify others
+% TODO: Link to slides?
+% TODO: Include additional info like date?
 
-% \mycon{0.3em}
+\mycon{0.3em}
 
-% \talk{The human epigenetic machinery is very intolerant to variation and highly co-expressed}{2017}{Epigenomics of Common Disease}{Cambridge, UK}
-%
-% \talk{Functional Impact of Epigenomic Variation Between Individuals}{2017}{JSM}{Baltimore, USA}
-%
-% \talk{Choice of reference genome can introduce massive bias in bisulfite sequencing data}{2016}{Biological Data Science}{CSHL, USA}
-%
-% \talk{Some lessons relevant to including external libraries in your R package}{2015}{UseR}{Aalborg, Denmark}
-%
-% \talk{Functional Normalization}{2014}{3rd Annual Infinium HumanMethylation450 Array Workshop}{London, UK}
-%
-% \talk{Statistical modeling of epigenomewide data}{2013}{Joint Statistical Meetings}{Montreal, Canada}
-%
-% \talk{Using minfi to identify differentially methylated regions with the 450K array}{2013}{2nd Annual Infinium HumanMethylation450 Array Workshop}{London, UK}
-%
-% \talk{Loss of stability of epigenetic domains across cancer types}{2011}{Copenhagenomics}{Copenhagen, Denmark}
-%
-% \talk{Analysis of shotgun bisulfite sequencing of cancer samples}{2011}{Statistical Challenges and Biomedical Applications of Deep Sequencing Data}{Ascona, Switzerland}
+\talk{Getting help and helping others (including future you)}{2018}{BioC Asia}{Melbourne, Australia}
 
-% \ee
+\talk{Genome-wide analysis of DNA methylation in samples from the Genotype-Tissue Expression (GTEx) project}{2018}{AGTA}{Adelaide, Australia}
+
+\talk{DelayedArray: A tibble for arrays}{2018}{useR!}{Brisbane, Australia}
+
+\talk{Lessons from switching to on-disk storage using DelayedArray containers}{2018}{BioC}{Toronto, Canada}
+
+\talk{Mapping the human brain epigenome and its links to disease}{2017}{Epigenetics Australia}{Brisbane, Australia}
+
+\talk{Neuronal brain region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric disease heritability}{2017}{GTEx Project Community Meeting}{Rockville, USA}
+
+\talk{Developing statistical methods for large epigenomic studies in the human brain}{2017}{ENAR Spring Meeting}{Washington D.C., USA}
+
+\talk{DelayedMatrixStats: Porting the matrixStats API to work with DelayedMatrix objects}{2017}{BioC}{Boston, USA}
+
+\talk{New features in `bsseq' for analysing large whole genome bisulfite-sequencing datasets}{2016}{BioC}{Palo Alto, USA}
+
+\talk{The `GenomicTuples' package}{2015}{BioC}{Seattle, USA}
+
+\talk{Genomic tuples and DNA methylation patterns}{2015}{BioC Europe}{Heidelberg, Germany}
+
+\talk{Simulating whole-genome DNA methylation data}{2014}{Australian Statistical Conference / International Mathematical Statistics Annual Meeting}{Sydney, Australia}
+
+\talk{Exploiting local dependencies in genome-wide studies of DNA methylation}{2013}{Young Statisticians Conference}{Melbourne, Australia}
+
+\talk{Spatial dependence of CpG-methylation from whole genome bisulfite sequencing}{2012}{Epigenomics of Common Diseases Meeting}{Baltimore, USA}
+
+\talk{Spatial dependence of DNA methylation}{2012}{Australian Statistical Conference}{Adelaide, Australia}
+
+\talk{Bioinformatics - Applied statistics in modern molecular biology}{2010}{Victorian Mathematics and Statistics Students’ Conference}{Melbourne, Australia}
+
+% TODO: Where to include PhD completion seminar (if at all)?
+
+\ee
 
 \subsection*{Posters}
 
 % TODO: Go through and identify others
+% TODO: Link to slides?
 
-% \mycon{0.3em}
+\mycon{0.3em}
 
-% \poster{Co-expression patterns define epigenetic regulators associated with neurological dysfunction}{2019}{Gorden Research Conference on Epigenetics}{New Hampshire, USA}
-%
-% \poster{Co-expression patterns define epigenetic regulators associated with neurological dysfunction}{2019}{Network Biology}{CSHL, USA}
-%
-% \poster{The quantitative relationship between histone modifications and gene expression across different individuals}{2016}{Biological Data Science}{CSHL, USA}
-%
-% \poster{Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data}{2016}{Biology of Genomes}{CSHL, USA}
-%
-% \poster{The association between histone modification abundance and gene expression across individuals}{2016}{Biology of Genomes}{CSHL, USA}
-%
-% \poster{Reconstructing genome structure using long-range correlations in epigenetic data}{2015}{NY Epigenomics Symposium}{NY, USA}
-%
-% \poster{minfi: Finding differentially methylated regions using the 450k array}{2012}{Epigenomics of Common Disease}{Baltimore, USA}
-%
-% \poster{The structure of DNA methylation in normal tissues}{%
-%   2012}{Epigenomics of Common Disease}{Baltimore, USA}
-%
-% \poster{Generalized loss of stability of epigenetic domains across cancers}{%
-%   2011}{Statistical Methods for Very Large Datasets}{Baltimore, USA}
-%
-% \poster{Generalized loss of stability of epigenetic domains across cancers}{%
-%   2011}{Biology of Genomes}{CSHL, USA}
-%
-% \poster{Biases in Illumina transcriptome sequencing caused by random hexamer priming}{%
-%   2010}{MGED, ISMB satellite meeting}{Boston, USA}
-%
-% \poster{Biases in Illumina transcriptome sequencing caused by random hexamer priming}{%
-%   2010}{HIT-Seq, ISMB satellite meeting}{Boston, USA}
+\poster{Genome-wide analysis of DNA methylation in samples from the Genotype-Tissue Expression (GTEx) project}{2019}{Lorne Genome}{Lorne, Australia}
 
-% \ee
+\poster{Developing `standard' bioinformatics analyses for the Single Cell Open Research Endeavour (SCORE)}{2018}{ABACBS}{Melbourne, Australia}
+
+\poster{Simulating whole-genome bisulfite-sequencing data}{2014}{Lorne Genome}{Lorne, Australia}
+
+\poster{Simulating whole-genome bisulfite-sequencing data}{2013}{Epigenetics Australia}{Shoal Bay, Australia}
+
+\poster{Analysis of mouse exome sequencing: filtering institute-specific single nucleotide variants (SNVs)}{2011}{GeneMappers}{Hobart, Australia}
+
+\poster{X chromosome association testing in genome wide association studies}{2010}{The International Genetic Epidemiology Society Conference}{Boston, USA}
+
+\poster{X chromosome association testing in genome wide association studies}{2010}{The Australasian Microarray and Associated Technologies Association Conference}{Hobart, USA}
+
+\poster{Homozygosity by state analysis in highly inbred pedigrees}{2009}{GeneMappers}{Sydney, USA}
+
+\ee
 
 }{}
 % END IF THEN
