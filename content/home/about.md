@@ -41,5 +41,5 @@ data, made available through [Bioconductor](https://bioconductor.org/).
 
 This site include my (very) occasional [blog](/post), along with the usual 
 academic fare of my papers, [presentations](/talk), 
-{{% staticref "cv/Peter_Hickey_CV.pdf" %}}CV (pdf){{% /staticref %}}, 
+{{% staticref "new_cv/hickey_cv.pdf" %}}CV (pdf){{% /staticref %}}, 
 software and data.
